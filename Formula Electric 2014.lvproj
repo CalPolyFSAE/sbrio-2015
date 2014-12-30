@@ -3336,8 +3336,8 @@ DirectoryIndex index.htm
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">//psf/Dropbox/Formula Electric 2014-2015/Controls/Code/FPGA Bitfiles/FormulaElectric2_FPGATarget_FPGA_fe48NMz-SOE.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/FormulaElectric2_FPGATarget_FPGA_fe48NMz-SOE.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Thomas Willson/Documents/GitHub/sbrio-2015/FPGA Bitfiles/FormulaElectric2_FPGATarget_FPGA_8a5J0mMac2U.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/FormulaElectric2_FPGATarget_FPGA_8a5J0mMac2U.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">//psf/Dropbox/Formula Electric/Controls/Code/Formula Electric 2014.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
