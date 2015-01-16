@@ -236,6 +236,7 @@ DirectoryIndex index.htm
 				<Item Name="MC Status.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/MC Status.vi"/>
 				<Item Name="Shutdown Status.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Shutdown Status.vi"/>
 				<Item Name="sbRIO Status.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/sbRIO Status.vi"/>
+				<Item Name="Remote Shutdown Status.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Remote Shutdown Status.vi"/>
 			</Item>
 			<Item Name="Shutdown" Type="Folder">
 				<Item Name="Precharge Control.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Precharge Control.vi"/>
