@@ -19,7 +19,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Remote Stop Type.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Remote Stop Type.ctl"/>
 		<Item Name="Telemetry Display.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Telemetry Display.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
@@ -39,6 +38,7 @@
 			<Item Name="MC Temp 3.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Temp 3.ctl"/>
 			<Item Name="MC Torque.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Torque.ctl"/>
 			<Item Name="MC Voltage.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Voltage.ctl"/>
+			<Item Name="Remote Stop Type.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Remote Stop Type.ctl"/>
 			<Item Name="VSM States.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/VSM States.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -72,7 +72,7 @@
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -145,6 +145,7 @@ DirectoryIndex index.htm
 			<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 			<Item Name="Subsystem Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status.ctl"/>
 			<Item Name="FPGA Typedef.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Typedef.ctl"/>
+			<Item Name="Remote Stop Type.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Remote Stop Type.ctl"/>
 		</Item>
 		<Item Name="SPI" Type="Folder">
 			<Item Name="Controls" Type="Folder">
@@ -3308,6 +3309,8 @@ DirectoryIndex index.htm
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
+					<Item Name="FPGA Telemetry New.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry New.ctl"/>
+					<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -3410,7 +3413,6 @@ DirectoryIndex index.htm
 			<Item Name="rioembeddedcanlvapi.dll" Type="Document" URL="rioembeddedcanlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Remote Stop Type.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Remote Stop Type.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
