@@ -3546,6 +3546,7 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="CAN Frame.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN Frame.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
