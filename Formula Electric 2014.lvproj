@@ -101,6 +101,7 @@
 			<Item Name="8byte to 4 2byte.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/8byte to 4 2byte.vi"/>
 			<Item Name="BMS Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/BMS Telemetry.ctl"/>
 			<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
+			<Item Name="FPGA Loads and Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Loads and Shutdown.ctl"/>
 			<Item Name="FPGA SPI_FPGA SPI State.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA/SPI/Controls/FPGA SPI_FPGA SPI State.ctl"/>
 			<Item Name="FPGA Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry.ctl"/>
 			<Item Name="Inverter Run Modes.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Inverter Run Modes.ctl"/>
@@ -256,6 +257,8 @@ DirectoryIndex index.htm
 			<Item Name="SPI Sensor Processing.vi" Type="VI" URL="../Formula Hybrid 2012 r1/SPI Sensor Processing.vi"/>
 		</Item>
 		<Item Name="CAN" Type="Folder">
+			<Item Name="CAN Frame.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN Frame.ctl"/>
+			<Item Name="CAN TDMS Channel Name String.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN TDMS Channel Name String.ctl"/>
 			<Item Name="TDMS Init.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init.vi"/>
 			<Item Name="Process CAN Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process CAN Frame.vi"/>
 			<Item Name="8byte to 4 2byte.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/8byte to 4 2byte.vi"/>
@@ -266,8 +269,15 @@ DirectoryIndex index.htm
 			<Item Name="CAN TDMS Writer.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN TDMS Writer.vi"/>
 		</Item>
 		<Item Name="FPGA Telemetry" Type="Folder">
+			<Item Name="FPGA Loads and Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Loads and Shutdown.ctl"/>
 			<Item Name="FPGA Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry.ctl"/>
 			<Item Name="Send FPGA Telemetry.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Send FPGA Telemetry.vi"/>
+			<Item Name="FPGA Telem for Slow Logging.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telem for Slow Logging.ctl"/>
+			<Item Name="FPGA Telem for Fast Logging.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telem for Fast Logging.ctl"/>
+			<Item Name="Write Slow FPGA Telem to FIFO.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Write Slow FPGA Telem to FIFO.vi"/>
+			<Item Name="Write Fast FPGA Telem to FIFO.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Write Fast FPGA Telem to FIFO.vi"/>
+			<Item Name="Write Slow FPGA Telem to TDMS.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Write Slow FPGA Telem to TDMS.vi"/>
+			<Item Name="Write Fast FPGA Telem to TDMS.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Write Fast FPGA Telem to TDMS.vi"/>
 		</Item>
 		<Item Name="BMS" Type="Folder">
 			<Item Name="Decode Car State.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Decode Car State.vi"/>
@@ -3558,8 +3568,6 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="CAN Frame.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN Frame.ctl"/>
-		<Item Name="CAN TDMS Channel Name String.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN TDMS Channel Name String.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
