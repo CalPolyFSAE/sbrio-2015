@@ -95,6 +95,7 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="BMS Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/BMS Telemetry.ctl"/>
 			<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 			<Item Name="FPGA SPI_FPGA SPI State.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA/SPI/Controls/FPGA SPI_FPGA SPI State.ctl"/>
 			<Item Name="FPGA Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry.ctl"/>
@@ -247,12 +248,13 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="CAN" Type="Folder">
 			<Item Name="TDMS Init.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init.vi"/>
-			<Item Name="Log CAN Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Log CAN Frame.vi"/>
+			<Item Name="Process CAN Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process CAN Frame.vi"/>
 			<Item Name="8byte to 4 2byte.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/8byte to 4 2byte.vi"/>
 			<Item Name="TDMS Timestamp and Data.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data.vi"/>
 			<Item Name="TDMS Timestamp and Data Int.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Int.vi"/>
 			<Item Name="TDMS Timestamp and Data Double.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Double.vi"/>
 			<Item Name="Init CAN TDMS Info.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Init CAN TDMS Info.vi"/>
+			<Item Name="CAN TDMS Writer.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN TDMS Writer.vi"/>
 		</Item>
 		<Item Name="FPGA Telemetry" Type="Folder">
 			<Item Name="FPGA Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry.ctl"/>
@@ -263,6 +265,7 @@ DirectoryIndex index.htm
 			<Item Name="Decode Charging State.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Decode Charging State.vi"/>
 			<Item Name="Scale Cell Voltage.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Voltage.vi"/>
 			<Item Name="Scale Cell Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Temp.vi"/>
+			<Item Name="Send BMS Telemetry.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Send BMS Telemetry.vi"/>
 			<Item Name="BMS Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/BMS Telemetry.ctl"/>
 		</Item>
 		<Item Name="MC" Type="Folder">
