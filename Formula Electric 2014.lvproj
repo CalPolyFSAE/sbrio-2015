@@ -99,6 +99,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="8byte to 4 2byte.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/8byte to 4 2byte.vi"/>
+			<Item Name="AIR Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/AIR Status.ctl"/>
 			<Item Name="BMS Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/BMS Telemetry.ctl"/>
 			<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 			<Item Name="FPGA Loads and Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Loads and Shutdown.ctl"/>
@@ -118,9 +119,11 @@
 			<Item Name="MC Temp 3.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Temp 3.ctl"/>
 			<Item Name="MC Torque.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Torque.ctl"/>
 			<Item Name="MC Voltage.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Voltage.ctl"/>
+			<Item Name="Reason for Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Reason for Shutdown.ctl"/>
 			<Item Name="Remote Stop Type.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Remote Stop Type.ctl"/>
 			<Item Name="Scale Cell Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Temp.vi"/>
 			<Item Name="Scale Cell Voltage.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Voltage.vi"/>
+			<Item Name="Subsystem Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status.ctl"/>
 			<Item Name="TDMS Timestamp and Data Double.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Double.vi"/>
 			<Item Name="TDMS Timestamp and Data Int.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Int.vi"/>
 			<Item Name="TDMS Timestamp and Data.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data.vi"/>
@@ -232,6 +235,7 @@ DirectoryIndex index.htm
 			<Item Name="FPGA Typedef.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Typedef.ctl"/>
 			<Item Name="Remote Stop Type.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Remote Stop Type.ctl"/>
 			<Item Name="New Run Typedef.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/New Run Typedef.ctl"/>
+			<Item Name="Reason for Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Reason for Shutdown.ctl"/>
 		</Item>
 		<Item Name="SPI" Type="Folder">
 			<Item Name="Controls" Type="Folder">
