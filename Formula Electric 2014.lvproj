@@ -3425,8 +3425,9 @@ DirectoryIndex index.htm
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="NI_SoftMotion_MotorControlIP.lvlib" Type="Library" URL="/&lt;vilib&gt;/Motion/MotorControl/NI_SoftMotion_MotorControlIP.lvlib"/>
 					</Item>
+					<Item Name="FPGA Telemetry New.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry New.ctl"/>
+					<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
