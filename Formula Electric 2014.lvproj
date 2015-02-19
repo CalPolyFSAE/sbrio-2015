@@ -332,6 +332,7 @@ DirectoryIndex index.htm
 				<Item Name="Init Controller.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Init Controller.vi"/>
 				<Item Name="Send Parameter Message.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Send Parameter Message.vi"/>
 				<Item Name="Clear Faults.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Clear Faults.vi"/>
+				<Item Name="Set Gamma Adjust.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Set Gamma Adjust.vi"/>
 			</Item>
 			<Item Name="Throttle" Type="Folder">
 				<Item Name="Throttle to Torque Percent.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Throttle to Torque Percent.vi"/>
