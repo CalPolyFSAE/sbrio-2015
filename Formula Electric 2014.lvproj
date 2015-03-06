@@ -374,6 +374,7 @@ DirectoryIndex index.htm
 		<Item Name="MC" Type="Folder">
 			<Item Name="Telemetry" Type="Folder">
 				<Item Name="Typedefs" Type="Folder">
+					<Item Name="MC Run Fault.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/MC Run Fault.ctl"/>
 					<Item Name="MC Temp 1.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Temp 1.ctl"/>
 					<Item Name="MC Temp 2.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Temp 2.ctl"/>
 					<Item Name="MC Temp 3.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Temp 3.ctl"/>
@@ -382,8 +383,6 @@ DirectoryIndex index.htm
 					<Item Name="MC State.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC State.ctl"/>
 					<Item Name="MC Torque.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Torque.ctl"/>
 					<Item Name="MC Faults.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Faults.ctl"/>
-					<Item Name="MC Post Faults.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Post Faults.ctl"/>
-					<Item Name="MC Run Faults.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Run Faults.ctl"/>
 					<Item Name="MC Position.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Position.ctl"/>
 					<Item Name="MC Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Telemetry.ctl"/>
 				</Item>
@@ -3591,6 +3590,7 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Process Run Fault.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Process Run Fault.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
@@ -3629,6 +3629,8 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="FormulaElectric2_FPGATarget_FPGA_8a5J0mMac2U.lvbitx" Type="Document" URL="../FPGA Bitfiles/FormulaElectric2_FPGATarget_FPGA_8a5J0mMac2U.lvbitx"/>
+			<Item Name="MC Post Faults.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Post Faults.ctl"/>
+			<Item Name="MC Run Faults.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Run Faults.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
