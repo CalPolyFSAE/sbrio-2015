@@ -25,6 +25,9 @@
 		<Item Name="Process Raw CAN TDMS into Usable TDMS.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process Raw CAN TDMS into Usable TDMS.vi"/>
 		<Item Name="Process Telemetry Folder.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Process Telemetry Folder.vi"/>
 		<Item Name="Remote Calibration Panel.vi" Type="VI" URL="../Remote Calibration Panel.vi"/>
+		<Item Name="rioembeddedcanlvapi.dll" Type="Document" URL="rioembeddedcanlvapi.dll">
+			<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+		</Item>
 		<Item Name="TDMS File Viewer.vi" Type="VI" URL="../Formula Hybrid 2012 r1/PC Test Code/TDMS File Viewer.vi"/>
 		<Item Name="Telemetry Display.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Telemetry Display.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -192,7 +195,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Users/Thomas Willson/Desktop/FE Telemetry/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2F991113-086C-417F-8832-08C9977A5CDD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{00281864-7B9B-433B-ACFC-8D26C7E5EB49}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Telemetry Display.vi</Property>
@@ -450,6 +453,12 @@ DirectoryIndex index.htm
 			<Item Name="Remote Calibration FPGA Loop.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Remote Calibration/Remote Calibration FPGA Loop.vi"/>
 			<Item Name="Remote Calibration Typedef.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Remote Calibration/Remote Calibration Typedef.ctl"/>
 			<Item Name="RemoteCalibrationVars.lvlib" Type="Library" URL="../Formula Hybrid 2012 r1/Remote Calibration/RemoteCalibrationVars.lvlib"/>
+		</Item>
+		<Item Name="iPhone" Type="Folder">
+			<Item Name="iPhone Receive Loop.vi" Type="VI" URL="../Formula Hybrid 2012 r1/iPhone/iPhone Receive Loop.vi"/>
+			<Item Name="AccelPacket.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/iPhone/AccelPacket.ctl"/>
+			<Item Name="GyroPacket.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/iPhone/GyroPacket.ctl"/>
+			<Item Name="LocationPacket.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/iPhone/LocationPacket.ctl"/>
 		</Item>
 		<Item Name="Car Main.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Car Main.vi"/>
 		<Item Name="Chassis" Type="sbRIO Chassis">
@@ -3537,10 +3546,6 @@ DirectoryIndex index.htm
 						<Item Name="niFPGA I32xI32 MAC - FXP.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"/>
 						<Item Name="niFPGA BW CU Order 2 (32-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/butterworth/templates/niFPGA BW CU Order 2 (32-bit).vi"/>
 					</Item>
-					<Item Name="FPGA Telemetry New.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry New.ctl"/>
-					<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
-					<Item Name="SPI Parameters.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/SPI/SPI Parameters.ctl"/>
-					<Item Name="Scale Output ADXL345.vi" Type="VI" URL="../Formula Hybrid 2012 r1/SPI/ADXL345/Scale Output ADXL345.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
