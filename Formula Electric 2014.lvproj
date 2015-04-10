@@ -148,6 +148,8 @@
 			<Item Name="Inverter States.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Inverter States.ctl"/>
 			<Item Name="MC Current.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Current.ctl"/>
 			<Item Name="MC Faults.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Faults.ctl"/>
+			<Item Name="MC Flux.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Flux.ctl"/>
+			<Item Name="MC Internal Voltages.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Internal Voltages.ctl"/>
 			<Item Name="MC Position.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Position.ctl"/>
 			<Item Name="MC State.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC State.ctl"/>
 			<Item Name="MC Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Telemetry.ctl"/>
@@ -391,6 +393,7 @@ DirectoryIndex index.htm
 					<Item Name="MC Position.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Position.ctl"/>
 					<Item Name="MC Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Telemetry.ctl"/>
 					<Item Name="MC Flux.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Flux.ctl"/>
+					<Item Name="MC Internal Voltages.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Internal Voltages.ctl"/>
 				</Item>
 				<Item Name="Send MC Telemetry.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Send MC Telemetry.vi"/>
 			</Item>
