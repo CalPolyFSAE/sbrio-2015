@@ -398,6 +398,7 @@ DirectoryIndex index.htm
 					<Item Name="MC Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Telemetry.ctl"/>
 					<Item Name="MC Flux.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Flux.ctl"/>
 					<Item Name="MC Internal Voltages.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Internal Voltages.ctl"/>
+					<Item Name="MC Mod Index and Flux Weakening.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Mod Index and Flux Weakening.ctl"/>
 				</Item>
 				<Item Name="Send MC Telemetry.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Send MC Telemetry.vi"/>
 			</Item>
