@@ -165,6 +165,8 @@
 			<Item Name="Remote Stop Type.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Remote Stop Type.ctl"/>
 			<Item Name="Scale Cell Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Temp.vi"/>
 			<Item Name="Scale Cell Voltage.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Voltage.vi"/>
+			<Item Name="Subsystem Status Message.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status Message.ctl"/>
+			<Item Name="Subsystem Status Severity.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status Severity.ctl"/>
 			<Item Name="Subsystem Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status.ctl"/>
 			<Item Name="TDMS Timestamp and Data Double.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Double.vi"/>
 			<Item Name="TDMS Timestamp and Data Int.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Int.vi"/>
@@ -314,6 +316,8 @@ DirectoryIndex index.htm
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 			<Item Name="Subsystem Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status.ctl"/>
+			<Item Name="Subsystem Status Severity.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status Severity.ctl"/>
+			<Item Name="Subsystem Status Message.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status Message.ctl"/>
 			<Item Name="FPGA Typedef.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Typedef.ctl"/>
 			<Item Name="Remote Stop Type.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Remote Stop Type.ctl"/>
 			<Item Name="New Run Typedef.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/New Run Typedef.ctl"/>
@@ -428,6 +432,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Vehicle Status" Type="Folder">
 			<Item Name="Subsystem Statuses" Type="Folder">
+				<Item Name="Find Most Severe Subsystem Status.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Find Most Severe Subsystem Status.vi"/>
 				<Item Name="BMS Status.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/BMS Status.vi"/>
 				<Item Name="MC Status.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/MC Status.vi"/>
 				<Item Name="Shutdown Status.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Shutdown Status.vi"/>
@@ -463,6 +468,11 @@ DirectoryIndex index.htm
 			<Item Name="AccelPacket.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/iPhone/AccelPacket.ctl"/>
 			<Item Name="GyroPacket.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/iPhone/GyroPacket.ctl"/>
 			<Item Name="LocationPacket.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/iPhone/LocationPacket.ctl"/>
+		</Item>
+		<Item Name="Dashboard" Type="Folder">
+			<Item Name="SubsystemStatusToCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SubsystemStatusToCAN.vi"/>
+			<Item Name="SendDashCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendDashCAN.vi"/>
+			<Item Name="NDashPage.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/NDashPage.ctl"/>
 		</Item>
 		<Item Name="Car Main.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Car Main.vi"/>
 		<Item Name="Chassis" Type="sbRIO Chassis">
@@ -3686,7 +3696,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2CA642-8A01-491E-AF3B-DC7F51963C21}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
@@ -3697,13 +3707,18 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/c/ni-rt/startup/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{06A61F0A-A2E7-4C0B-A72D-99C91B5E09C7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B95C3DD7-1332-4EA0-A3E5-9125D228E847}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT Single-Board RIO/Car Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT Single-Board RIO/Remote Calibration/RemoteCalibrationVars.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 </Property>
