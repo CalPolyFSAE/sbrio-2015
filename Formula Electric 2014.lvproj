@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{F63673DC-3468-496F-9E2B-4E02D2E50237}" Type="Ref">/RT Single-Board RIO/Remote Calibration/RemoteCalibrationVars.lvlib/RemoteCalibrationVariable</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -461,9 +460,9 @@ DirectoryIndex index.htm
 			<Item Name="Resolver Calibration Test Bench.vi" Type="VI" URL="../Formula Hybrid 2012 r1/PC Test Code/Resolver Calibration Test Bench.vi"/>
 		</Item>
 		<Item Name="Remote Calibration" Type="Folder">
+			<Item Name="Remote Calibration Variable.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Remote Calibration/Remote Calibration Variable.vi"/>
 			<Item Name="Remote Calibration FPGA Loop.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Remote Calibration/Remote Calibration FPGA Loop.vi"/>
 			<Item Name="Remote Calibration Typedef.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Remote Calibration/Remote Calibration Typedef.ctl"/>
-			<Item Name="RemoteCalibrationVars.lvlib" Type="Library" URL="../Formula Hybrid 2012 r1/Remote Calibration/RemoteCalibrationVars.lvlib"/>
 		</Item>
 		<Item Name="iPhone" Type="Folder">
 			<Item Name="iPhone Receive Loop.vi" Type="VI" URL="../Formula Hybrid 2012 r1/iPhone/iPhone Receive Loop.vi"/>
@@ -3716,7 +3715,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT Single-Board RIO/Remote Calibration/RemoteCalibrationVars.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
