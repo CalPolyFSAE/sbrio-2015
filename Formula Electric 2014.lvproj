@@ -3562,10 +3562,6 @@ DirectoryIndex index.htm
 						<Item Name="niFPGA BW CU Order 2 (32-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/butterworth/templates/niFPGA BW CU Order 2 (32-bit).vi"/>
 						<Item Name="niFPGA I32xI32 Dot Product - 3 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 3 elements I64.vi"/>
 					</Item>
-					<Item Name="SPI Parameters.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/SPI/SPI Parameters.ctl"/>
-					<Item Name="Scale Output ADXL345.vi" Type="VI" URL="../Formula Hybrid 2012 r1/SPI/ADXL345/Scale Output ADXL345.vi"/>
-					<Item Name="FPGA Telemetry New.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry New.ctl"/>
-					<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -3675,6 +3671,10 @@ DirectoryIndex index.htm
 				<Item Name="TDMS Create Scaling Information (Polynomial).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Polynomial).vi"/>
 				<Item Name="TDMS Create Scaling Information (Linear).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Linear).vi"/>
 				<Item Name="TDMS Create Scaling Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information.vi"/>
+				<Item Name="CANWaitRemoteWakeup.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANWaitRemoteWakeup.vi"/>
+				<Item Name="CANWaitInterfaceCommunicating.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANWaitInterfaceCommunicating.vi"/>
+				<Item Name="CANWaitTransmitComplete.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANWaitTransmitComplete.vi"/>
+				<Item Name="CANWait.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANWait.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -3701,7 +3701,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2CA642-8A01-491E-AF3B-DC7F51963C21}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
