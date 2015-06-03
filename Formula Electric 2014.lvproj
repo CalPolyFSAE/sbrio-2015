@@ -134,6 +134,7 @@
 			<Item Name="AIR Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/AIR Status.ctl"/>
 			<Item Name="BMS Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/BMS Telemetry.ctl"/>
 			<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
+			<Item Name="DashDriverInputs.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/DashDriverInputs.ctl"/>
 			<Item Name="Decode Car State.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Decode Car State.vi"/>
 			<Item Name="Decode Charging State.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Decode Charging State.vi"/>
 			<Item Name="Decode Inverter Command Modes.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Decode Inverter Command Modes.vi"/>
@@ -474,6 +475,10 @@ DirectoryIndex index.htm
 			<Item Name="SubsystemStatusToCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SubsystemStatusToCAN.vi"/>
 			<Item Name="SendDashCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendDashCAN.vi"/>
 			<Item Name="NDashPage.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/NDashPage.ctl"/>
+			<Item Name="Sgl_to_Half_Prec_Poly.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec_Poly.vi"/>
+			<Item Name="Sgl_to_Half_Prec_Array.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec_Array.vi"/>
+			<Item Name="Sgl_to_Half_Prec.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec.vi"/>
+			<Item Name="DashDriverInputs.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/DashDriverInputs.ctl"/>
 		</Item>
 		<Item Name="Car Main.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Car Main.vi"/>
 		<Item Name="Chassis" Type="sbRIO Chassis">
@@ -3701,7 +3706,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2CA642-8A01-491E-AF3B-DC7F51963C21}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">43</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
