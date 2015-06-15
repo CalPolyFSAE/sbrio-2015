@@ -245,7 +245,7 @@
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -423,6 +423,7 @@ DirectoryIndex index.htm
 				<Item Name="Send Parameter Message.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Send Parameter Message.vi"/>
 				<Item Name="Clear Faults.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Clear Faults.vi"/>
 				<Item Name="Set Gamma Adjust.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Set Gamma Adjust.vi"/>
+				<Item Name="Broadcast Diagnostic.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Broadcast Diagnostic.vi"/>
 			</Item>
 			<Item Name="Throttle" Type="Folder">
 				<Item Name="Throttle to Torque Percent.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Throttle to Torque Percent.vi"/>
@@ -3706,7 +3707,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2CA642-8A01-491E-AF3B-DC7F51963C21}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">50</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
