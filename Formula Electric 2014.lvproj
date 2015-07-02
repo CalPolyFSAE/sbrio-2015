@@ -363,6 +363,7 @@ DirectoryIndex index.htm
 			<Item Name="TDMS Timestamp and Data Double.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Double.vi"/>
 			<Item Name="Init CAN TDMS Info.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Init CAN TDMS Info.vi"/>
 			<Item Name="CAN TDMS Writer.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN TDMS Writer.vi"/>
+			<Item Name="CAN Frame to XNET Raw Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN Frame to XNET Raw Frame.vi"/>
 		</Item>
 		<Item Name="FPGA Telemetry" Type="Folder">
 			<Item Name="FPGA Loads and Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Loads and Shutdown.ctl"/>
@@ -3516,6 +3517,7 @@ DirectoryIndex index.htm
 				<Item Name="RMC Connector" Type="RIO Mezzanine Card">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
 					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
+					<Property Name="crio.Rmc.ShadowsClip" Type="Bool">false</Property>
 					<Property Name="crio.SupportsDynamicRes" Type="Bool">false</Property>
 					<Property Name="crio.Type" Type="Str">Digital</Property>
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
