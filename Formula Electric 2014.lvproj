@@ -21,6 +21,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CAN Data Playback.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN Data Playback.vi"/>
 		<Item Name="Convert CAN Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Convert CAN Frame.vi"/>
+		<Item Name="Convert Old CAN Log to XNET.vi" Type="VI" URL="../Formula Hybrid 2012 r1/PC Test Code/Convert Old CAN Log to XNET.vi"/>
 		<Item Name="Process Raw CAN TDMS into Usable TDMS.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process Raw CAN TDMS into Usable TDMS.vi"/>
 		<Item Name="Process Telemetry Folder.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Process Telemetry Folder.vi"/>
 		<Item Name="Remote Calibration Panel.vi" Type="VI" URL="../Remote Calibration Panel.vi"/>
@@ -57,6 +58,7 @@
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="_XNET Convert Time LV to U64.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert Time LV to U64.vi"/>
 				<Item Name="AsciiToInt.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/AsciiToInt.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="CANFrameControl.ctl" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANFrameControl.ctl"/>
@@ -129,10 +131,13 @@
 				<Item Name="VariantType to Type Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/VariantType to Type Code.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="XNET Frame CAN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame CAN.ctl"/>
+				<Item Name="XNET Frame Type CAN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type CAN.ctl"/>
 			</Item>
 			<Item Name="8byte to 4 2byte.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/8byte to 4 2byte.vi"/>
 			<Item Name="AIR Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/AIR Status.ctl"/>
 			<Item Name="BMS Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/BMS Telemetry.ctl"/>
+			<Item Name="CAN Frame to XNET Raw Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN Frame to XNET Raw Frame.vi"/>
 			<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 			<Item Name="DashDriverInputs.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/DashDriverInputs.ctl"/>
 			<Item Name="Decode Car State.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Decode Car State.vi"/>
@@ -159,6 +164,10 @@
 			<Item Name="MC Temp 3.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Temp 3.ctl"/>
 			<Item Name="MC Torque.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Torque.ctl"/>
 			<Item Name="MC Voltage.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Voltage.ctl"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert CAN to RAW.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/NI-XNET Frame&amp;Log - Convert CAN to RAW.vi"/>
+			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Process CAN Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process CAN Frame.vi"/>
 			<Item Name="Process Run Fault.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Process Run Fault.vi"/>
 			<Item Name="Reason for Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Reason for Shutdown.ctl"/>
@@ -169,6 +178,7 @@
 			<Item Name="Subsystem Status Message.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status Message.ctl"/>
 			<Item Name="Subsystem Status Severity.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status Severity.ctl"/>
 			<Item Name="Subsystem Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status.ctl"/>
+			<Item Name="TDMS Init.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init.vi"/>
 			<Item Name="TDMS Timestamp and Data Double.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Double.vi"/>
 			<Item Name="TDMS Timestamp and Data Int.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Int.vi"/>
 			<Item Name="TDMS Timestamp and Data.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data.vi"/>
@@ -364,6 +374,7 @@ DirectoryIndex index.htm
 			<Item Name="Init CAN TDMS Info.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Init CAN TDMS Info.vi"/>
 			<Item Name="CAN TDMS Writer.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN TDMS Writer.vi"/>
 			<Item Name="CAN Frame to XNET Raw Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN Frame to XNET Raw Frame.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert CAN to RAW.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/NI-XNET Frame&amp;Log - Convert CAN to RAW.vi"/>
 		</Item>
 		<Item Name="FPGA Telemetry" Type="Folder">
 			<Item Name="FPGA Loads and Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Loads and Shutdown.ctl"/>
@@ -3684,6 +3695,8 @@ DirectoryIndex index.htm
 				<Item Name="CANWaitTransmitComplete.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANWaitTransmitComplete.vi"/>
 				<Item Name="CANWait.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANWait.vi"/>
 				<Item Name="_XNET Convert Time LV to U64.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert Time LV to U64.vi"/>
+				<Item Name="XNET Frame Type CAN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type CAN.ctl"/>
+				<Item Name="XNET Frame CAN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame CAN.ctl"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
