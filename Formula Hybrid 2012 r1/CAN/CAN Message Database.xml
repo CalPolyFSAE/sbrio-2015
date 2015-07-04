@@ -1171,7 +1171,7 @@
         <fx:CODING-REF ID-REF="cod8"/>
       </fx:SIGNAL>
       <fx:SIGNAL ID="sig9">
-        <ho:SHORT-NAME>IMCBattery</ho:SHORT-NAME>
+        <ho:SHORT-NAME>IMCBatteryCalc</ho:SHORT-NAME>
         <ho:DESC>The Calculated DC Bus Current</ho:DESC>
         <fx:DEFAULT-VALUE>0</fx:DEFAULT-VALUE>
         <fx:CODING-REF ID-REF="cod9"/>
