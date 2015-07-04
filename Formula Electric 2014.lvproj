@@ -146,7 +146,6 @@
 			<Item Name="Decode Inverter Enable States.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Decode Inverter Enable States.vi"/>
 			<Item Name="Decode Inverter State.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Decode Inverter State.vi"/>
 			<Item Name="Decode VSM.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Decode VSM.vi"/>
-			<Item Name="FPGA Loads and Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Loads and Shutdown.ctl"/>
 			<Item Name="FPGA Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry.ctl"/>
 			<Item Name="Global Data.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Global Data.vi"/>
 			<Item Name="Inverter Run Modes.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Inverter Run Modes.ctl"/>
