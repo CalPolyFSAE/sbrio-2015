@@ -1,0 +1,36 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+Dashboard	 	NDashRateDividerRotaryMap	NDashRateDividerRotaryMap
+MC Control	Prefs	NMCCANOffset	NMCCANOffset
+Torque Control	Throttle Maps	NThrottleMapRotaryMap	NThrottleMapRotaryMap
+Torque Control	Torque Maps	NTorqueMapRotaryMap	NTorqueMapRotaryMap
+MC Control	Prefs	pBrakeFActivation	pBrakeFActivation
+Torque Control	Throttle Maps	rThrottleMap0	rThrottleMap0
+Torque Control	Throttle Maps	rThrottleMap1	rThrottleMap1
+Torque Control	Throttle Maps	rThrottleMap2	rThrottleMap2
+Torque Control	Throttle Maps	rThrottleMap3	rThrottleMap3
+Torque Control	Throttle Maps	rThrottleMap4	rThrottleMap4
+Torque Control	Throttle Maps	rThrottleMap5	rThrottleMap5
+Torque Control	Torque Maps	rTorqueMap0	rTorqueMap0
+Torque Control	Torque Maps	rTorqueMap1	rTorqueMap1
+Torque Control	Torque Maps	rTorqueMap2	rTorqueMap2
+Torque Control	Torque Maps	rTorqueMap3	rTorqueMap3
+Torque Control	Torque Maps	rTorqueMap4	rTorqueMap4
+Torque Control	Torque Maps	rTorqueMap5	rTorqueMap5
+FPGA	TPS	rTPS1	rTPS1
+FPGA	TPS	rTPS1Max	rTPS1Max
+FPGA	TPS	rTPS1Min	rTPS1Min
+FPGA	TPS	rTPS1Unscaled	rTPS1Unscaled
+FPGA	TPS	rTPS2	rTPS2
+FPGA	TPS	rTPS2Max	rTPS2Max
+FPGA	TPS	rTPS2Min	rTPS2Min
+FPGA	TPS	rTPS2Unscaled	rTPS2Unscaled
+Telemetry	FPGA	tFPGATelemetryPeriod	tFPGATelemetryPeriod
+FPGA	Lap Timing	tLapMin	tLapMin
+Telemetry	MC	tMCTelemetryPeriod	tMCTelemetryPeriod
+Shutdown Control	Precharge	tPrecharge	tPrecharge
+Shutdown Control	RTDS	tRTDS	tRTDS
+Telemetry	TDMS	tTDMSTelemetryPeriod	tTDMSTelemetryPeriod
+FPGA	Steering Sensor	VSteerWheelMiddle	VSteerWheelMiddle
+FPGA	 	VSupplyOffset	VSupplyOffset
