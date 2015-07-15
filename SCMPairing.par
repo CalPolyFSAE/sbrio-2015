@@ -34,3 +34,4 @@ Shutdown Control	RTDS	tRTDS	tRTDS
 Telemetry	TDMS	tTDMSTelemetryPeriod	tTDMSTelemetryPeriod
 FPGA	Steering Sensor	VSteerWheelMiddle	VSteerWheelMiddle
 FPGA	 	VSupplyOffset	VSupplyOffset
+FPGA	Wheel Speed	xTyreDiameter	xTireDiameter
