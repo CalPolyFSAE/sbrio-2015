@@ -3609,13 +3609,6 @@ DirectoryIndex index.htm
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="IP SPI&amp;I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Library/IP SPI&amp;I2C.lvlib"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-						<Item Name="niFPGA Boolean Crossing.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/analysis/control/nonlinear/niFPGA Boolean Crossing.vi"/>
-						<Item Name="niFPGA I32xI32 MAC - FXP.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"/>
-						<Item Name="niFPGA BW CU Order 2 (32-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/butterworth/templates/niFPGA BW CU Order 2 (32-bit).vi"/>
-						<Item Name="niFPGA I32xI32 Dot Product - 3 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 3 elements I64.vi"/>
-					</Item>
-					<Item Name="user.lib" Type="Folder">
-						<Item Name="NI SPI IP FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/NI SPI IP FPGA.lvlib"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
