@@ -191,6 +191,7 @@
 			<Item Name="Subsystem Status Severity.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status Severity.ctl"/>
 			<Item Name="Subsystem Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Subsystem Status.ctl"/>
 			<Item Name="TDMS Init.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init.vi"/>
+			<Item Name="TDMS Init_XNET.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init_XNET.vi"/>
 			<Item Name="TDMS Timestamp and Data Double.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Double.vi"/>
 			<Item Name="TDMS Timestamp and Data Int.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data Int.vi"/>
 			<Item Name="TDMS Timestamp and Data.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data.vi"/>
@@ -376,9 +377,9 @@ DirectoryIndex index.htm
 			<Item Name="AIR Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/AIR Status.ctl"/>
 		</Item>
 		<Item Name="CAN" Type="Folder">
+			<Item Name="TDMS Init_XNET.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init_XNET.vi"/>
 			<Item Name="CAN Frame.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN Frame.ctl"/>
 			<Item Name="CAN TDMS Channel Name String.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN TDMS Channel Name String.ctl"/>
-			<Item Name="TDMS Init.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init.vi"/>
 			<Item Name="Process CAN Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process CAN Frame.vi"/>
 			<Item Name="8byte to 4 2byte.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/8byte to 4 2byte.vi"/>
 			<Item Name="TDMS Timestamp and Data.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TDMS Timestamp and Data.vi"/>
@@ -3690,6 +3691,7 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="FPGA Calibration.vi" Type="VI" URL="../FPGA Calibration.vi"/>
+		<Item Name="TDMS Init.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
