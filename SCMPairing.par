@@ -1,6 +1,13 @@
 SCM Pairings File 
 v1.1
 Target Class	Target Group	Target Name	Host Item
+FPGA	Wheel Speed	bWheelFLFail	bWheelFLFail
+FPGA	Wheel Speed	bWheelFRFail	bWheelFRFail
+ATLAS	Session Information	CCarName	CCarName
+ATLAS	Session Information	CCircuit	CCircuit
+ATLAS	Session Information	CDriverName	CDriverName
+ATLAS	Session Information	CExtraNotes	CExtraNotes
+ATLAS	Session Information	CSessionDescription	CSessionDescription
 Dashboard	 	NDashRateDividerRotaryMap	NDashRateDividerRotaryMap
 MC Control	Prefs	NMCCANOffset	NMCCANOffset
 Torque Control	Throttle Maps	NThrottleMapRotaryMap	NThrottleMapRotaryMap
@@ -28,6 +35,7 @@ FPGA	TPS	rTPS2Min	rTPS2Min
 FPGA	TPS	rTPS2Unscaled	rTPS2Unscaled
 Telemetry	FPGA	tFPGATelemetryPeriod	tFPGATelemetryPeriod
 FPGA	Lap Timing	tLapMin	tLapMin
+Dashboard	Page Timing	tLapTriggerOverride	tLapTriggerOverride
 Telemetry	MC	tMCTelemetryPeriod	tMCTelemetryPeriod
 Shutdown Control	Precharge	tPrecharge	tPrecharge
 Shutdown Control	RTDS	tRTDS	tRTDS

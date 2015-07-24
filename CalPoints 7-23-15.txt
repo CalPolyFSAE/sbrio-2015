@@ -1,0 +1,43 @@
+CalPoint Name	Type	Default	Units	Limits Enabled	Overwrite Cal	X Size	Y Size	ID	Description	Owning VI	Adaptable
+ATLAS|Session Information|CCarName	STRControl					20		41	Max size=20	TDMS Init.vi	
+ATLAS|Session Information|CCircuit	STRControl					40		42		TDMS Init.vi	
+ATLAS|Session Information|CDriverName	STRControl					20		43	Max size=20	TDMS Init.vi	
+ATLAS|Session Information|CExtraNotes	STRControl					300		44	Max Size=300	TDMS Init.vi	
+ATLAS|Session Information|CSessionDescription	STRControl					40		45	Brief description, max length = 40 char.	TDMS Init.vi	
+Dashboard| |NDashRateDividerRotaryMap	TBL1D_SGLControl		|			12		46		MC Control Loop.vi	
+Dashboard|Page Timing|tLapTriggerOverride	U32Control	3500	ms					47		SendDashCAN.vi	
+FPGA| |VSupplyOffset	SGLControl	0.000000						48		FPGA Calibration.vi	
+FPGA|Lap Timing|tLapMin	U32Control	0						49		FPGA Calibration.vi	
+FPGA|Steering Sensor|VSteerWheelMiddle	SGLControl	0.000000						50		FPGA Calibration.vi	
+FPGA|TPS|rTPS1	SGLIndicator	0.000000						51		Send FPGA Telemetry.vi	
+FPGA|TPS|rTPS1Max	SGLControl	0.000000						52		FPGA Calibration.vi	
+FPGA|TPS|rTPS1Min	SGLControl	0.000000						53		FPGA Calibration.vi	
+FPGA|TPS|rTPS1Unscaled	SGLIndicator	0.000000						54		Send FPGA Telemetry.vi	
+FPGA|TPS|rTPS2	SGLIndicator	0.000000						55		Send FPGA Telemetry.vi	
+FPGA|TPS|rTPS2Max	SGLControl	0.000000						56		FPGA Calibration.vi	
+FPGA|TPS|rTPS2Min	SGLControl	0.000000						57		FPGA Calibration.vi	
+FPGA|TPS|rTPS2Unscaled	SGLIndicator	0.000000						58		Send FPGA Telemetry.vi	
+FPGA|Wheel Speed|bWheelFLFail	BOOLControl	F	|					59		FPGA Calibration.vi	
+FPGA|Wheel Speed|bWheelFRFail	BOOLControl	F	|					60		FPGA Calibration.vi	
+FPGA|Wheel Speed|xTyreDiameter	SGLControl	0.530000	m					61		FPGA Calibration.vi	
+MC Control|Prefs|NMCCANOffset	U32Control	512						62		MC Control Loop.vi	
+MC Control|Prefs|pBrakeFActivation	SGLControl	100.000000	psi					63	Changes the activation brake pressure to allow the motor controller to be enabled.	MC Control Loop.vi	
+Shutdown Control|Precharge|tPrecharge	U32Control	7000	msec					64		Shutdown State Machine Loop.vi	
+Shutdown Control|RTDS|tRTDS	U32Control	1000	msec					65		Shutdown State Machine Loop.vi	
+Telemetry|FPGA|tFPGATelemetryPeriod	U32Control	200						66		Send FPGA Telemetry.vi	
+Telemetry|MC|tMCTelemetryPeriod	U32Control	100						67		Send MC Telemetry.vi	
+Telemetry|TDMS|tTDMSTelemetryPeriod	U32Control	1000						68		Send FPGA Telemetry.vi	
+Torque Control|Throttle Maps|NThrottleMapRotaryMap	TBL1D_SGLControl		NRotary|NThrottleMap	T		12		69		Percent to Torque Request.vi	
+Torque Control|Throttle Maps|rThrottleMap0	TBL1D_SGLControl		%|%	T		41		70	Takes in rTPS and outputs an rTorqueRequest that ranges from -1 to 1.	Percent to Torque Request.vi	
+Torque Control|Throttle Maps|rThrottleMap1	TBL1D_SGLControl		%|%	T		41		71	Takes in rTPS and outputs an rTorqueRequest that ranges from -1 to 1.	Percent to Torque Request.vi	
+Torque Control|Throttle Maps|rThrottleMap2	TBL1D_SGLControl		%|%	T		41		72	Takes in rTPS and outputs an rTorqueRequest that ranges from -1 to 1.	Percent to Torque Request.vi	
+Torque Control|Throttle Maps|rThrottleMap3	TBL1D_SGLControl		%|%	T		41		73	Takes in rTPS and outputs an rTorqueRequest that ranges from -1 to 1.	Percent to Torque Request.vi	
+Torque Control|Throttle Maps|rThrottleMap4	TBL1D_SGLControl		%|%	T		41		74	Takes in rTPS and outputs an rTorqueRequest that ranges from -1 to 1.	Percent to Torque Request.vi	
+Torque Control|Throttle Maps|rThrottleMap5	TBL1D_SGLControl		%|%	T		41		75	Takes in rTPS and outputs an rTorqueRequest that ranges from -1 to 1.	Percent to Torque Request.vi	
+Torque Control|Torque Maps|NTorqueMapRotaryMap	TBL1D_SGLControl		NRotary|NThrottleMap	T		12		76		Percent to Torque Request.vi	
+Torque Control|Torque Maps|rTorqueMap0	TBL2D_SGLControl		nMotor|rTorqueRequest|MTorqueRequest			25	41	77		Percent to Torque Request.vi	
+Torque Control|Torque Maps|rTorqueMap1	TBL2D_SGLControl		nMotor|rTorqueRequest|MTorqueRequest			25	41	78		Percent to Torque Request.vi	
+Torque Control|Torque Maps|rTorqueMap2	TBL2D_SGLControl		nMotor|rTorqueRequest|MTorqueRequest			25	41	79		Percent to Torque Request.vi	
+Torque Control|Torque Maps|rTorqueMap3	TBL2D_SGLControl		nMotor|rTorqueRequest|MTorqueRequest			25	41	80		Percent to Torque Request.vi	
+Torque Control|Torque Maps|rTorqueMap4	TBL2D_SGLControl		nMotor|rTorqueRequest|MTorqueRequest			25	41	81		Percent to Torque Request.vi	
+Torque Control|Torque Maps|rTorqueMap5	TBL2D_SGLControl		nMotor|rTorqueRequest|MTorqueRequest			25	41	82		Percent to Torque Request.vi	
