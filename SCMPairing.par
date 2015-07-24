@@ -1,6 +1,8 @@
 SCM Pairings File 
 v1.1
 Target Class	Target Group	Target Name	Host Item
+FPGA	Lap Timing	bResetFastestLap	bResetFastestLap
+FPGA	Lap Timing	bResetNLap	bResetNLap
 FPGA	Wheel Speed	bWheelFLFail	bWheelFLFail
 FPGA	Wheel Speed	bWheelFRFail	bWheelFRFail
 ATLAS	Session Information	CCarName	CCarName
@@ -35,6 +37,7 @@ FPGA	TPS	rTPS2Min	rTPS2Min
 FPGA	TPS	rTPS2Unscaled	rTPS2Unscaled
 Telemetry	FPGA	tFPGATelemetryPeriod	tFPGATelemetryPeriod
 FPGA	Lap Timing	tLapMin	tLapMin
+FPGA	Lap Timing	tLapReference	tLapReference
 Dashboard	Page Timing	tLapTriggerOverride	tLapTriggerOverride
 Telemetry	MC	tMCTelemetryPeriod	tMCTelemetryPeriod
 Shutdown Control	Precharge	tPrecharge	tPrecharge
