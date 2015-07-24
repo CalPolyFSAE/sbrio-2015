@@ -165,6 +165,7 @@
 			<Item Name="Global Data.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Global Data.vi"/>
 			<Item Name="Inverter Run Modes.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Inverter Run Modes.ctl"/>
 			<Item Name="Inverter States.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Inverter States.ctl"/>
+			<Item Name="Lap Statistics.ctl" Type="VI" URL="../Lap Statistics.ctl"/>
 			<Item Name="MC Current.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Current.ctl"/>
 			<Item Name="MC Faults.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Faults.ctl"/>
 			<Item Name="MC Flux.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Flux.ctl"/>
@@ -506,6 +507,10 @@ DirectoryIndex index.htm
 			<Item Name="Sgl_to_Half_Prec_Array.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec_Array.vi"/>
 			<Item Name="Sgl_to_Half_Prec.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec.vi"/>
 			<Item Name="DashDriverInputs.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/DashDriverInputs.ctl"/>
+		</Item>
+		<Item Name="Lap Statistics" Type="Folder">
+			<Item Name="Lap Statistics.vi" Type="VI" URL="../Lap Statistics.vi"/>
+			<Item Name="Lap Statistics.ctl" Type="VI" URL="../Lap Statistics.ctl"/>
 		</Item>
 		<Item Name="Car Main.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Car Main.vi"/>
 		<Item Name="Chassis" Type="sbRIO Chassis">

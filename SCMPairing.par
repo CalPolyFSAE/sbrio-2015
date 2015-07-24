@@ -2,6 +2,7 @@ SCM Pairings File
 v1.1
 Target Class	Target Group	Target Name	Host Item
 FPGA	Lap Timing	bResetFastestLap	bResetFastestLap
+Lap Statistics	 	bResetLapStatistics	bResetLapStatistics
 FPGA	Lap Timing	bResetNLap	bResetNLap
 FPGA	Wheel Speed	bWheelFLFail	bWheelFLFail
 FPGA	Wheel Speed	bWheelFRFail	bWheelFRFail
@@ -15,6 +16,7 @@ MC Control	Prefs	NMCCANOffset	NMCCANOffset
 Torque Control	Throttle Maps	NThrottleMapRotaryMap	NThrottleMapRotaryMap
 Torque Control	Torque Maps	NTorqueMapRotaryMap	NTorqueMapRotaryMap
 MC Control	Prefs	pBrakeFActivation	pBrakeFActivation
+Lap Statistics	Brakes	pBrakeFBrakeBalThresh	pBrakeFBrakeBalThresh
 Torque Control	Throttle Maps	rThrottleMap0	rThrottleMap0
 Torque Control	Throttle Maps	rThrottleMap1	rThrottleMap1
 Torque Control	Throttle Maps	rThrottleMap2	rThrottleMap2
