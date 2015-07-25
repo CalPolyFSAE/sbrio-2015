@@ -11,6 +11,7 @@ ATLAS	Session Information	CCircuit	CCircuit
 ATLAS	Session Information	CDriverName	CDriverName
 ATLAS	Session Information	CExtraNotes	CExtraNotes
 ATLAS	Session Information	CSessionDescription	CSessionDescription
+FPGA	Car Speed	gAccelThreshold	gAccelThreshold
 Dashboard	 	NDashRateDividerRotaryMap	NDashRateDividerRotaryMap
 MC Control	Prefs	NMCCANOffset	NMCCANOffset
 Torque Control	Throttle Maps	NThrottleMapRotaryMap	NThrottleMapRotaryMap
