@@ -460,7 +460,6 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="MC State Machine.lvsc" Type="LVStatechart" URL="../Formula Hybrid 2012 r1/MC State Machine.lvsc"/>
 			<Item Name="MC Control Loop.vi" Type="VI" URL="../Formula Hybrid 2012 r1/MC Control Loop.vi"/>
-			<Item Name="New MC TDMS.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/New MC TDMS.vi"/>
 		</Item>
 		<Item Name="Shutdown" Type="Folder">
 			<Item Name="Shutdown State Machine.lvsc" Type="LVStatechart" URL="../Formula Hybrid 2012 r1/Shutdown State Machine.lvsc"/>
@@ -496,16 +495,20 @@ DirectoryIndex index.htm
 			<Item Name="LocationPacket.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/iPhone/LocationPacket.ctl"/>
 		</Item>
 		<Item Name="Dashboard" Type="Folder">
-			<Item Name="SendBrakesCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendBrakesCAN.vi"/>
-			<Item Name="SendDrivingCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendDrivingCAN.vi"/>
-			<Item Name="SendTriggerCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendTriggerCAN.vi"/>
-			<Item Name="SendSystemsCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendSystemsCAN.vi"/>
+			<Item Name="SendMessages" Type="Folder">
+				<Item Name="SendBrakesCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendBrakesCAN.vi"/>
+				<Item Name="SendDrivingCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendDrivingCAN.vi"/>
+				<Item Name="SendTriggerCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendTriggerCAN.vi"/>
+				<Item Name="SendSystemsCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendSystemsCAN.vi"/>
+			</Item>
+			<Item Name="SGL to HALF" Type="Folder">
+				<Item Name="Sgl_to_Half_Prec_Poly.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec_Poly.vi"/>
+				<Item Name="Sgl_to_Half_Prec_Array.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec_Array.vi"/>
+				<Item Name="Sgl_to_Half_Prec.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec.vi"/>
+			</Item>
 			<Item Name="SubsystemStatusToCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SubsystemStatusToCAN.vi"/>
 			<Item Name="SendDashCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendDashCAN.vi"/>
 			<Item Name="NDashPage.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/NDashPage.ctl"/>
-			<Item Name="Sgl_to_Half_Prec_Poly.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec_Poly.vi"/>
-			<Item Name="Sgl_to_Half_Prec_Array.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec_Array.vi"/>
-			<Item Name="Sgl_to_Half_Prec.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec.vi"/>
 			<Item Name="DashDriverInputs.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/DashDriverInputs.ctl"/>
 		</Item>
 		<Item Name="Lap Statistics" Type="Folder">

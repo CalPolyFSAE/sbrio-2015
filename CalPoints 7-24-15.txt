@@ -6,19 +6,19 @@ ATLAS|Session Information|CExtraNotes	STRControl					300		44	Max Size=300	TDMS I
 ATLAS|Session Information|CSessionDescription	STRControl					40		45	Brief description, max length = 40 char.	TDMS Init.vi	
 Dashboard| |NDashRateDividerRotaryMap	TBL1D_SGLControl		|			12		46		MC Control Loop.vi	
 Dashboard|Page Timing|tLapTriggerOverride	U32Control	3500	ms					47		SendDashCAN.vi	
-FPGA| |VSupplyOffset	SGLControl	0.000000	V					48		FPGA Calibration.vi	
+FPGA| |VSupplyOffset	SGLControl	8.890620	V					48		FPGA Calibration.vi	
 FPGA|Lap Timing|bResetFastestLap	BOOLControl	F	|					49		FPGA Calibration.vi	
 FPGA|Lap Timing|bResetNLap	BOOLControl	F	|					50		FPGA Calibration.vi	
 FPGA|Lap Timing|tLapMin	U32Control	0	ms					51		FPGA Calibration.vi	
 FPGA|Lap Timing|tLapReference	U32Control	35000	ms					52		FPGA Calibration.vi	
 FPGA|Steering Sensor|VSteerWheelMiddle	SGLControl	2.500000	V					53		FPGA Calibration.vi	
 FPGA|TPS|rTPS1	SGLIndicator	0.000000						54		Send FPGA Telemetry.vi	
-FPGA|TPS|rTPS1Max	SGLControl	0.000000						55		FPGA Calibration.vi	
-FPGA|TPS|rTPS1Min	SGLControl	0.000000						56		FPGA Calibration.vi	
+FPGA|TPS|rTPS1Max	SGLControl	0.620117	%					55		FPGA Calibration.vi	
+FPGA|TPS|rTPS1Min	SGLControl	0.410156	%					56		FPGA Calibration.vi	
 FPGA|TPS|rTPS1Unscaled	SGLIndicator	0.000000						57		Send FPGA Telemetry.vi	
 FPGA|TPS|rTPS2	SGLIndicator	0.000000						58		Send FPGA Telemetry.vi	
-FPGA|TPS|rTPS2Max	SGLControl	0.000000						59		FPGA Calibration.vi	
-FPGA|TPS|rTPS2Min	SGLControl	0.000000						60		FPGA Calibration.vi	
+FPGA|TPS|rTPS2Max	SGLControl	0.270020	%					59		FPGA Calibration.vi	
+FPGA|TPS|rTPS2Min	SGLControl	0.489990	%					60		FPGA Calibration.vi	
 FPGA|TPS|rTPS2Unscaled	SGLIndicator	0.000000						61		Send FPGA Telemetry.vi	
 FPGA|Wheel Speed|bWheelFLFail	BOOLControl	F	|					62		FPGA Calibration.vi	
 FPGA|Wheel Speed|bWheelFRFail	BOOLControl	F	|					63		FPGA Calibration.vi	
