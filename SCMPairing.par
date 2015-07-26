@@ -2,7 +2,6 @@ SCM Pairings File
 v1.1
 Target Class	Target Group	Target Name	Host Item
 FPGA	Lap Timing	bResetFastestLap	bResetFastestLap
-Lap Statistics	 	bResetLapStatistics	bResetLapStatistics
 FPGA	Lap Timing	bResetNLap	bResetNLap
 FPGA	Wheel Speed	bWheelFLFail	bWheelFLFail
 FPGA	Wheel Speed	bWheelFRFail	bWheelFRFail
@@ -11,13 +10,11 @@ ATLAS	Session Information	CCircuit	CCircuit
 ATLAS	Session Information	CDriverName	CDriverName
 ATLAS	Session Information	CExtraNotes	CExtraNotes
 ATLAS	Session Information	CSessionDescription	CSessionDescription
-FPGA	Car Speed	gAccelThreshold	gAccelThreshold
 Dashboard	 	NDashRateDividerRotaryMap	NDashRateDividerRotaryMap
 MC Control	Prefs	NMCCANOffset	NMCCANOffset
 Torque Control	Throttle Maps	NThrottleMapRotaryMap	NThrottleMapRotaryMap
 Torque Control	Torque Maps	NTorqueMapRotaryMap	NTorqueMapRotaryMap
 MC Control	Prefs	pBrakeFActivation	pBrakeFActivation
-Lap Statistics	Brakes	pBrakeFBrakeBalThresh	pBrakeFBrakeBalThresh
 Torque Control	Throttle Maps	rThrottleMap0	rThrottleMap0
 Torque Control	Throttle Maps	rThrottleMap1	rThrottleMap1
 Torque Control	Throttle Maps	rThrottleMap2	rThrottleMap2
@@ -38,6 +35,7 @@ FPGA	TPS	rTPS2	rTPS2
 FPGA	TPS	rTPS2Max	rTPS2Max
 FPGA	TPS	rTPS2Min	rTPS2Min
 FPGA	TPS	rTPS2Unscaled	rTPS2Unscaled
+ 	 	SCalibrationFileName	SCalibrationFileName
 Telemetry	FPGA	tFPGATelemetryPeriod	tFPGATelemetryPeriod
 FPGA	Lap Timing	tLapMin	tLapMin
 FPGA	Lap Timing	tLapReference	tLapReference
