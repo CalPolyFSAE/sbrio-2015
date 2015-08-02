@@ -3855,6 +3855,9 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="ADXL345 Output.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA/SPI v2/ADXL345 Output.ctl"/>
 			<Item Name="17" Type="VI" URL="../Formula Hybrid 2012 r1/MC State Machine.lvsc/Diagram.vi/17"/>
+			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
