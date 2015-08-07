@@ -20,6 +20,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CAN Data Playback.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN Data Playback.vi"/>
+		<Item Name="CAN Message Listing.vi" Type="VI" URL="../CAN Message Listing.vi"/>
 		<Item Name="Convert CAN Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Convert CAN Frame.vi"/>
 		<Item Name="Convert Old CAN Log to XNET.vi" Type="VI" URL="../Formula Hybrid 2012 r1/PC Test Code/Convert Old CAN Log to XNET.vi"/>
 		<Item Name="Process Raw CAN TDMS into Usable TDMS.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process Raw CAN TDMS into Usable TDMS.vi"/>
@@ -60,6 +61,7 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Convert Time LV to U64.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert Time LV to U64.vi"/>
+				<Item Name="_XNET Convert Time U64 to LV.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert Time U64 to LV.vi"/>
 				<Item Name="AsciiToInt.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/AsciiToInt.vi"/>
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -179,7 +181,11 @@
 			<Item Name="MC Temp 3.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Temp 3.ctl"/>
 			<Item Name="MC Torque.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Torque.ctl"/>
 			<Item Name="MC Voltage.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Voltage.ctl"/>
+			<Item Name="NI-XNET Frame&amp;Log - CAN Frame to Table.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/nixnet/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - CAN Frame to Table.vi"/>
 			<Item Name="NI-XNET Frame&amp;Log - Convert CAN to RAW.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/NI-XNET Frame&amp;Log - Convert CAN to RAW.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Single Frame (Raw to CAN).vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/nixnet/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Single Frame (Raw to CAN).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Converter.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/nixnet/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Converter.ctl"/>
+			<Item Name="NI-XNET Frame&amp;Log - Get Frame Size.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/nixnet/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Get Frame Size.vi"/>
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -3624,13 +3630,6 @@ DirectoryIndex index.htm
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="IP SPI&amp;I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Library/IP SPI&amp;I2C.lvlib"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-						<Item Name="niFPGA Boolean Crossing.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/analysis/control/nonlinear/niFPGA Boolean Crossing.vi"/>
-						<Item Name="niFPGA I32xI32 MAC - FXP.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"/>
-						<Item Name="niFPGA BW CU Order 2 (32-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/butterworth/templates/niFPGA BW CU Order 2 (32-bit).vi"/>
-						<Item Name="niFPGA I32xI32 Dot Product - 3 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 3 elements I64.vi"/>
-					</Item>
-					<Item Name="user.lib" Type="Folder">
-						<Item Name="NI SPI IP FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/NI SPI IP FPGA.lvlib"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
@@ -3854,7 +3853,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ADXL345 Output.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA/SPI v2/ADXL345 Output.ctl"/>
-			<Item Name="17" Type="VI" URL="../Formula Hybrid 2012 r1/MC State Machine.lvsc/Diagram.vi/17"/>
 			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
