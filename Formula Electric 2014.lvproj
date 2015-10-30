@@ -19,11 +19,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="CAN Data Playback.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN Data Playback.vi"/>
-		<Item Name="CAN Message Listing.vi" Type="VI" URL="../CAN Message Listing.vi"/>
-		<Item Name="Convert CAN Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Convert CAN Frame.vi"/>
-		<Item Name="Convert Old CAN Log to XNET.vi" Type="VI" URL="../Formula Hybrid 2012 r1/PC Test Code/Convert Old CAN Log to XNET.vi"/>
-		<Item Name="Process Raw CAN TDMS into Usable TDMS.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process Raw CAN TDMS into Usable TDMS.vi"/>
+		<Item Name="TDMS CAN Log Utilities" Type="Folder">
+			<Item Name="CAN Data Playback.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN Data Playback.vi"/>
+			<Item Name="CAN Message Listing.vi" Type="VI" URL="../CAN Message Listing.vi"/>
+			<Item Name="Convert CAN Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Convert CAN Frame.vi"/>
+			<Item Name="Convert Old CAN Log to XNET.vi" Type="VI" URL="../Formula Hybrid 2012 r1/PC Test Code/Convert Old CAN Log to XNET.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - CAN Frame to Table.vi" Type="VI" URL="../Testing Code/NI-XNET Frame&amp;Log - CAN Frame to Table.vi"/>
+			<Item Name="Process Raw CAN TDMS into Usable TDMS.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process Raw CAN TDMS into Usable TDMS.vi"/>
+		</Item>
 		<Item Name="Process Telemetry Folder.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Process Telemetry Folder.vi"/>
 		<Item Name="Remote Calibration Panel.vi" Type="VI" URL="../Remote Calibration Panel.vi"/>
 		<Item Name="rioembeddedcanlvapi.dll" Type="Document" URL="rioembeddedcanlvapi.dll">
@@ -181,11 +184,10 @@
 			<Item Name="MC Temp 3.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Temp 3.ctl"/>
 			<Item Name="MC Torque.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Torque.ctl"/>
 			<Item Name="MC Voltage.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/MC Voltage.ctl"/>
-			<Item Name="NI-XNET Frame&amp;Log - CAN Frame to Table.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/nixnet/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - CAN Frame to Table.vi"/>
 			<Item Name="NI-XNET Frame&amp;Log - Convert CAN to RAW.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/NI-XNET Frame&amp;Log - Convert CAN to RAW.vi"/>
-			<Item Name="NI-XNET Frame&amp;Log - Convert Single Frame (Raw to CAN).vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/nixnet/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Single Frame (Raw to CAN).vi"/>
-			<Item Name="NI-XNET Frame&amp;Log - Converter.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/nixnet/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Converter.ctl"/>
-			<Item Name="NI-XNET Frame&amp;Log - Get Frame Size.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/nixnet/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Get Frame Size.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Single Frame (Raw to CAN).vi" Type="VI" URL="../Testing Code/NI-XNET Frame&amp;Log - Convert Single Frame (Raw to CAN).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Converter.ctl" Type="VI" URL="../Testing Code/NI-XNET Frame&amp;Log - Converter.ctl"/>
+			<Item Name="NI-XNET Frame&amp;Log - Get Frame Size.vi" Type="VI" URL="../Testing Code/NI-XNET Frame&amp;Log - Get Frame Size.vi"/>
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -3628,14 +3630,8 @@ DirectoryIndex index.htm
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="Private Data (SPI).ctl" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Type Def/Private Data (SPI).ctl"/>
-						<Item Name="Calculate Divider.vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Public/Calculate Divider.vi"/>
-						<Item Name="Configure Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Configure Port (SPI).vi"/>
-						<Item Name="Write Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Write Port (SPI).vi"/>
-						<Item Name="Arm Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Arm Port (SPI).vi"/>
-						<Item Name="Read Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Read Port (SPI).vi"/>
-						<Item Name="Initialize Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Initialize Port (SPI).vi"/>
-						<Item Name="IP Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/IP Port (SPI).vi"/>
+						<Item Name="IP SPI&amp;I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Library/IP SPI&amp;I2C.lvlib"/>
+						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
