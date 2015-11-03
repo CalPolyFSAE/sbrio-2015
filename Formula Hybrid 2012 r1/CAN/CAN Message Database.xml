@@ -246,55 +246,55 @@
         <fx:FRAME-TRIGGERINGS>
           <fx:FRAME-TRIGGERING ID="trig1">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>525</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">525</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm1"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig2">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>526</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">526</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm2"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig3">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>527</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">527</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm3"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig4">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>524</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">524</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm4"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig5">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>544</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">544</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm5"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig6">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>523</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">523</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm6"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig7">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>522</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">522</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm7"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig8">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>521</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">521</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm8"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig9">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>520</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">520</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm9"/>
           </fx:FRAME-TRIGGERING>
@@ -312,49 +312,49 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig12">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>519</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">519</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm12"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig13">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>518</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">518</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm13"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig14">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>517</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">517</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm14"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig15">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>516</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">516</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm15"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig16">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>515</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">515</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm16"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig17">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>514</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">514</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm17"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig18">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>513</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">513</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm18"/>
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig19">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>512</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">512</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm19"/>
           </fx:FRAME-TRIGGERING>
