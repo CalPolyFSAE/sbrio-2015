@@ -30,7 +30,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu1"/>
+          <fx:PDU-REF ID-REF="pdu2"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg2">
           <fx:TIMINGS>
@@ -40,7 +40,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu11"/>
+          <fx:PDU-REF ID-REF="pdu13"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg3">
           <fx:TIMINGS>
@@ -50,7 +50,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu12"/>
+          <fx:PDU-REF ID-REF="pdu14"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg4">
           <fx:TIMINGS>
@@ -60,7 +60,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu13"/>
+          <fx:PDU-REF ID-REF="pdu15"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg5">
           <fx:TIMINGS>
@@ -70,7 +70,7 @@
               </fx:DEBOUNCE-TIME-RANGE>
             </fx:EVENT-CONTROLLED-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu14"/>
+          <fx:PDU-REF ID-REF="pdu16"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg6">
           <fx:TIMINGS>
@@ -80,7 +80,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu15"/>
+          <fx:PDU-REF ID-REF="pdu17"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg7">
           <fx:TIMINGS>
@@ -90,7 +90,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu16"/>
+          <fx:PDU-REF ID-REF="pdu18"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg8">
           <fx:TIMINGS>
@@ -100,7 +100,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu17"/>
+          <fx:PDU-REF ID-REF="pdu19"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg9">
           <fx:TIMINGS>
@@ -110,7 +110,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu18"/>
+          <fx:PDU-REF ID-REF="pdu20"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg10">
           <fx:TIMINGS>
@@ -120,7 +120,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu19"/>
+          <fx:PDU-REF ID-REF="pdu21"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg11">
           <fx:TIMINGS>
@@ -130,7 +130,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu20"/>
+          <fx:PDU-REF ID-REF="pdu22"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg12">
           <fx:TIMINGS>
@@ -140,7 +140,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu2"/>
+          <fx:PDU-REF ID-REF="pdu3"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg13">
           <fx:TIMINGS>
@@ -150,7 +150,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu4"/>
+          <fx:PDU-REF ID-REF="pdu6"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg14">
           <fx:TIMINGS>
@@ -160,7 +160,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu5"/>
+          <fx:PDU-REF ID-REF="pdu7"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg15">
           <fx:TIMINGS>
@@ -170,7 +170,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu6"/>
+          <fx:PDU-REF ID-REF="pdu8"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg16">
           <fx:TIMINGS>
@@ -180,7 +180,7 @@
               </fx:DEBOUNCE-TIME-RANGE>
             </fx:EVENT-CONTROLLED-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu7"/>
+          <fx:PDU-REF ID-REF="pdu9"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg17">
           <fx:TIMINGS>
@@ -190,7 +190,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu8"/>
+          <fx:PDU-REF ID-REF="pdu10"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg18">
           <fx:TIMINGS>
@@ -200,7 +200,7 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu9"/>
+          <fx:PDU-REF ID-REF="pdu11"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg19">
           <fx:TIMINGS>
@@ -210,7 +210,7 @@
               </fx:DEBOUNCE-TIME-RANGE>
             </fx:EVENT-CONTROLLED-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu10"/>
+          <fx:PDU-REF ID-REF="pdu12"/>
         </fx:PDU-TRIGGERING>
         <fx:PDU-TRIGGERING ID="pdutrg20">
           <fx:TIMINGS>
@@ -220,7 +220,27 @@
               </fx:REPEATING-TIME-RANGE>
             </fx:CYCLIC-TIMING>
           </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu3"/>
+          <fx:PDU-REF ID-REF="pdu5"/>
+        </fx:PDU-TRIGGERING>
+        <fx:PDU-TRIGGERING ID="pdutrg21">
+          <fx:TIMINGS>
+            <fx:CYCLIC-TIMING>
+              <fx:REPEATING-TIME-RANGE>
+                <fx:VALUE>PT0.01000000S</fx:VALUE>
+              </fx:REPEATING-TIME-RANGE>
+            </fx:CYCLIC-TIMING>
+          </fx:TIMINGS>
+          <fx:PDU-REF ID-REF="pdu4"/>
+        </fx:PDU-TRIGGERING>
+        <fx:PDU-TRIGGERING ID="pdutrg22">
+          <fx:TIMINGS>
+            <fx:CYCLIC-TIMING>
+              <fx:REPEATING-TIME-RANGE>
+                <fx:VALUE>PT0.01000000S</fx:VALUE>
+              </fx:REPEATING-TIME-RANGE>
+            </fx:CYCLIC-TIMING>
+          </fx:TIMINGS>
+          <fx:PDU-REF ID-REF="pdu1"/>
         </fx:PDU-TRIGGERING>
         </fx:PDU-TRIGGERINGS>
         <fx:FRAME-TRIGGERINGS>
@@ -344,6 +364,18 @@
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm20"/>
           </fx:FRAME-TRIGGERING>
+          <fx:FRAME-TRIGGERING ID="trig21">
+            <fx:IDENTIFIER>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">11534338</fx:IDENTIFIER-VALUE>
+            </fx:IDENTIFIER>
+            <fx:FRAME-REF ID-REF="frm21"/>
+          </fx:FRAME-TRIGGERING>
+          <fx:FRAME-TRIGGERING ID="trig22">
+            <fx:IDENTIFIER>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">11534592</fx:IDENTIFIER-VALUE>
+            </fx:IDENTIFIER>
+            <fx:FRAME-REF ID-REF="frm22"/>
+          </fx:FRAME-TRIGGERING>
         </fx:FRAME-TRIGGERINGS>
       </fx:CHANNEL>
     </fx:CHANNELS>
@@ -460,6 +492,10 @@
                 <fx:FRAME-TRIGGERING-REF ID-REF="trig20"/>
                 <fx:COMPLETE-FRAME/>
               </fx:OUTPUT-PORT>
+              <fx:OUTPUT-PORT ID="outp20">
+                <fx:FRAME-TRIGGERING-REF ID-REF="trig21"/>
+                <fx:COMPLETE-FRAME/>
+              </fx:OUTPUT-PORT>
             </fx:OUTPUTS>
           </fx:CONNECTOR>
         </fx:CONNECTORS>
@@ -467,7 +503,7 @@
     </fx:ECUS>
     <fx:PDUS>
       <fx:PDU ID="pdu1">
-        <ho:SHORT-NAME>BMS_Diagnostic_pdu</ho:SHORT-NAME>
+        <ho:SHORT-NAME>BMS_Cell_Voltages0_7_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
@@ -475,478 +511,486 @@
           <fx:SIGNAL-INSTANCE ID="sgi1">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+            <fx:SIGNAL-REF ID-REF="sig106"/>
+          </fx:SIGNAL-INSTANCE>
+        </fx:SIGNAL-INSTANCES>
+      </fx:PDU>
+      <fx:PDU ID="pdu2">
+        <ho:SHORT-NAME>BMS_Diagnostic_pdu</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+        <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
+        <fx:SIGNAL-INSTANCES>
+          <fx:SIGNAL-INSTANCE ID="sgi2">
+            <fx:BIT-POSITION>0</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig54"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi2">
+          <fx:SIGNAL-INSTANCE ID="sgi3">
             <fx:BIT-POSITION>1</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig55"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi3">
+          <fx:SIGNAL-INSTANCE ID="sgi4">
             <fx:BIT-POSITION>2</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig56"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi4">
+          <fx:SIGNAL-INSTANCE ID="sgi5">
             <fx:BIT-POSITION>3</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig57"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi5">
+          <fx:SIGNAL-INSTANCE ID="sgi6">
             <fx:BIT-POSITION>4</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig58"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi6">
+          <fx:SIGNAL-INSTANCE ID="sgi7">
             <fx:BIT-POSITION>5</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig59"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi7">
+          <fx:SIGNAL-INSTANCE ID="sgi8">
             <fx:BIT-POSITION>6</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig60"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi8">
+          <fx:SIGNAL-INSTANCE ID="sgi9">
             <fx:BIT-POSITION>8</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig61"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi9">
+          <fx:SIGNAL-INSTANCE ID="sgi10">
             <fx:BIT-POSITION>10</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig62"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi10">
+          <fx:SIGNAL-INSTANCE ID="sgi11">
             <fx:BIT-POSITION>9</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig63"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu2">
+      <fx:PDU ID="pdu3">
         <ho:SHORT-NAME>BMS_Overall_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi11">
+          <fx:SIGNAL-INSTANCE ID="sgi12">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig46"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi12">
+          <fx:SIGNAL-INSTANCE ID="sgi13">
             <fx:BIT-POSITION>1</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig47"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi13">
+          <fx:SIGNAL-INSTANCE ID="sgi14">
             <fx:BIT-POSITION>2</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig48"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi14">
+          <fx:SIGNAL-INSTANCE ID="sgi15">
             <fx:BIT-POSITION>8</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig49"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi15">
+          <fx:SIGNAL-INSTANCE ID="sgi16">
             <fx:BIT-POSITION>56</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig50"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi16">
+          <fx:SIGNAL-INSTANCE ID="sgi17">
             <fx:BIT-POSITION>24</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig51"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi17">
+          <fx:SIGNAL-INSTANCE ID="sgi18">
             <fx:BIT-POSITION>39</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig52"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi18">
+          <fx:SIGNAL-INSTANCE ID="sgi19">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig53"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu3">
+      <fx:PDU ID="pdu4">
+        <ho:SHORT-NAME>BMS_Temperature_Overall_pdu</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>7</fx:BYTE-LENGTH>
+        <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
+        <fx:SIGNAL-INSTANCES>
+          <fx:SIGNAL-INSTANCE ID="sgi20">
+            <fx:BIT-POSITION>0</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+            <fx:SIGNAL-REF ID-REF="sig103"/>
+          </fx:SIGNAL-INSTANCE>
+          <fx:SIGNAL-INSTANCE ID="sgi21">
+            <fx:BIT-POSITION>8</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+            <fx:SIGNAL-REF ID-REF="sig104"/>
+          </fx:SIGNAL-INSTANCE>
+          <fx:SIGNAL-INSTANCE ID="sgi22">
+            <fx:BIT-POSITION>16</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+            <fx:SIGNAL-REF ID-REF="sig105"/>
+          </fx:SIGNAL-INSTANCE>
+        </fx:SIGNAL-INSTANCES>
+      </fx:PDU>
+      <fx:PDU ID="pdu5">
         <ho:SHORT-NAME>BMS_Voltage_Overall_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>7</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi19">
+          <fx:SIGNAL-INSTANCE ID="sgi23">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig98"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi20">
+          <fx:SIGNAL-INSTANCE ID="sgi24">
             <fx:BIT-POSITION>8</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig99"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi21">
+          <fx:SIGNAL-INSTANCE ID="sgi25">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig100"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi22">
+          <fx:SIGNAL-INSTANCE ID="sgi26">
             <fx:BIT-POSITION>31</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig101"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi23">
+          <fx:SIGNAL-INSTANCE ID="sgi27">
             <fx:BIT-POSITION>47</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>true</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig102"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu4">
+      <fx:PDU ID="pdu6">
         <ho:SHORT-NAME>MC_Analog_Input_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi24">
+          <fx:SIGNAL-INSTANCE ID="sgi28">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig82"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi25">
+          <fx:SIGNAL-INSTANCE ID="sgi29">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig83"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi26">
+          <fx:SIGNAL-INSTANCE ID="sgi30">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig84"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi27">
+          <fx:SIGNAL-INSTANCE ID="sgi31">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig85"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu5">
+      <fx:PDU ID="pdu7">
         <ho:SHORT-NAME>MC_Command_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>6</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi28">
+          <fx:SIGNAL-INSTANCE ID="sgi32">
             <fx:BIT-POSITION>40</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig17"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi29">
+          <fx:SIGNAL-INSTANCE ID="sgi33">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig18"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi30">
+          <fx:SIGNAL-INSTANCE ID="sgi34">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig19"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi31">
+          <fx:SIGNAL-INSTANCE ID="sgi35">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig20"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi32">
+          <fx:SIGNAL-INSTANCE ID="sgi36">
             <fx:BIT-POSITION>41</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig21"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu6">
+      <fx:PDU ID="pdu8">
         <ho:SHORT-NAME>MC_Current_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi33">
+          <fx:SIGNAL-INSTANCE ID="sgi37">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig68"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi34">
+          <fx:SIGNAL-INSTANCE ID="sgi38">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig69"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi35">
+          <fx:SIGNAL-INSTANCE ID="sgi39">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig70"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi36">
+          <fx:SIGNAL-INSTANCE ID="sgi40">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig71"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu7">
+      <fx:PDU ID="pdu9">
         <ho:SHORT-NAME>MC_Diag_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi37">
+          <fx:SIGNAL-INSTANCE ID="sgi41">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig9"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi38">
+          <fx:SIGNAL-INSTANCE ID="sgi42">
             <fx:BIT-POSITION>8</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig10"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi39">
+          <fx:SIGNAL-INSTANCE ID="sgi43">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig11"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi40">
+          <fx:SIGNAL-INSTANCE ID="sgi44">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig12"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi41">
+          <fx:SIGNAL-INSTANCE ID="sgi45">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig13"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu8">
+      <fx:PDU ID="pdu10">
         <ho:SHORT-NAME>MC_Digital_Input_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>6</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi42">
+          <fx:SIGNAL-INSTANCE ID="sgi46">
             <fx:BIT-POSITION>40</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig76"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi43">
+          <fx:SIGNAL-INSTANCE ID="sgi47">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig77"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi44">
+          <fx:SIGNAL-INSTANCE ID="sgi48">
             <fx:BIT-POSITION>24</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig78"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi45">
+          <fx:SIGNAL-INSTANCE ID="sgi49">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig79"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi46">
+          <fx:SIGNAL-INSTANCE ID="sgi50">
             <fx:BIT-POSITION>8</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig80"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi47">
+          <fx:SIGNAL-INSTANCE ID="sgi51">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig81"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu9">
+      <fx:PDU ID="pdu11">
         <ho:SHORT-NAME>MC_Fault_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi48">
+          <fx:SIGNAL-INSTANCE ID="sgi52">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig22"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi49">
+          <fx:SIGNAL-INSTANCE ID="sgi53">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig23"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi50">
+          <fx:SIGNAL-INSTANCE ID="sgi54">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig24"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi51">
+          <fx:SIGNAL-INSTANCE ID="sgi55">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig25"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu10">
+      <fx:PDU ID="pdu12">
         <ho:SHORT-NAME>MC_Firmware_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi52">
+          <fx:SIGNAL-INSTANCE ID="sgi56">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig5"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi53">
+          <fx:SIGNAL-INSTANCE ID="sgi57">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig6"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi54">
+          <fx:SIGNAL-INSTANCE ID="sgi58">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig7"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi55">
+          <fx:SIGNAL-INSTANCE ID="sgi59">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig8"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu11">
+      <fx:PDU ID="pdu13">
         <ho:SHORT-NAME>MC_Flux_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi56">
+          <fx:SIGNAL-INSTANCE ID="sgi60">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig42"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi57">
+          <fx:SIGNAL-INSTANCE ID="sgi61">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig43"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi58">
+          <fx:SIGNAL-INSTANCE ID="sgi62">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig44"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi59">
+          <fx:SIGNAL-INSTANCE ID="sgi63">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig45"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu12">
+      <fx:PDU ID="pdu14">
         <ho:SHORT-NAME>MC_Internal_State_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi60">
+          <fx:SIGNAL-INSTANCE ID="sgi64">
             <fx:BIT-POSITION>56</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig26"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi61">
+          <fx:SIGNAL-INSTANCE ID="sgi65">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig27"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi62">
+          <fx:SIGNAL-INSTANCE ID="sgi66">
             <fx:BIT-POSITION>26</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig28"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi63">
+          <fx:SIGNAL-INSTANCE ID="sgi67">
             <fx:BIT-POSITION>27</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig29"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi64">
+          <fx:SIGNAL-INSTANCE ID="sgi68">
             <fx:BIT-POSITION>25</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig30"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi65">
+          <fx:SIGNAL-INSTANCE ID="sgi69">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig31"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi66">
+          <fx:SIGNAL-INSTANCE ID="sgi70">
             <fx:BIT-POSITION>40</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig32"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi67">
+          <fx:SIGNAL-INSTANCE ID="sgi71">
             <fx:BIT-POSITION>24</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig33"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi68">
+          <fx:SIGNAL-INSTANCE ID="sgi72">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig34"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi69">
+          <fx:SIGNAL-INSTANCE ID="sgi73">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig35"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi70">
+          <fx:SIGNAL-INSTANCE ID="sgi74">
             <fx:BIT-POSITION>55</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig36"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi71">
+          <fx:SIGNAL-INSTANCE ID="sgi75">
             <fx:BIT-POSITION>37</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig37"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu13">
+      <fx:PDU ID="pdu15">
         <ho:SHORT-NAME>MC_Internal_Voltages_pdu</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-        <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
-        <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi72">
-            <fx:BIT-POSITION>48</fx:BIT-POSITION>
-            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig38"/>
-          </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi73">
-            <fx:BIT-POSITION>32</fx:BIT-POSITION>
-            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig39"/>
-          </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi74">
-            <fx:BIT-POSITION>16</fx:BIT-POSITION>
-            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig40"/>
-          </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi75">
-            <fx:BIT-POSITION>0</fx:BIT-POSITION>
-            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig41"/>
-          </fx:SIGNAL-INSTANCE>
-        </fx:SIGNAL-INSTANCES>
-      </fx:PDU>
-      <fx:PDU ID="pdu14">
-        <ho:SHORT-NAME>MC_Mod_Flux_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
@@ -954,27 +998,27 @@
           <fx:SIGNAL-INSTANCE ID="sgi76">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig1"/>
+            <fx:SIGNAL-REF ID-REF="sig38"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi77">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig2"/>
+            <fx:SIGNAL-REF ID-REF="sig39"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi78">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig3"/>
+            <fx:SIGNAL-REF ID-REF="sig40"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi79">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig4"/>
+            <fx:SIGNAL-REF ID-REF="sig41"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu15">
-        <ho:SHORT-NAME>MC_Position_pdu</ho:SHORT-NAME>
+      <fx:PDU ID="pdu16">
+        <ho:SHORT-NAME>MC_Mod_Flux_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
@@ -982,27 +1026,27 @@
           <fx:SIGNAL-INSTANCE ID="sgi80">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig72"/>
+            <fx:SIGNAL-REF ID-REF="sig1"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi81">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig73"/>
+            <fx:SIGNAL-REF ID-REF="sig2"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi82">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig74"/>
+            <fx:SIGNAL-REF ID-REF="sig3"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi83">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig75"/>
+            <fx:SIGNAL-REF ID-REF="sig4"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu16">
-        <ho:SHORT-NAME>MC_Temp_1_pdu</ho:SHORT-NAME>
+      <fx:PDU ID="pdu17">
+        <ho:SHORT-NAME>MC_Position_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
@@ -1010,27 +1054,27 @@
           <fx:SIGNAL-INSTANCE ID="sgi84">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig94"/>
+            <fx:SIGNAL-REF ID-REF="sig72"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi85">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig95"/>
+            <fx:SIGNAL-REF ID-REF="sig73"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi86">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig96"/>
+            <fx:SIGNAL-REF ID-REF="sig74"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi87">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig97"/>
+            <fx:SIGNAL-REF ID-REF="sig75"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu17">
-        <ho:SHORT-NAME>MC_Temp_2_pdu</ho:SHORT-NAME>
+      <fx:PDU ID="pdu18">
+        <ho:SHORT-NAME>MC_Temp_1_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
@@ -1038,27 +1082,27 @@
           <fx:SIGNAL-INSTANCE ID="sgi88">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig90"/>
+            <fx:SIGNAL-REF ID-REF="sig94"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi89">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig91"/>
+            <fx:SIGNAL-REF ID-REF="sig95"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi90">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig92"/>
+            <fx:SIGNAL-REF ID-REF="sig96"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi91">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig93"/>
+            <fx:SIGNAL-REF ID-REF="sig97"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu18">
-        <ho:SHORT-NAME>MC_Temp_3_pdu</ho:SHORT-NAME>
+      <fx:PDU ID="pdu19">
+        <ho:SHORT-NAME>MC_Temp_2_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
@@ -1066,70 +1110,98 @@
           <fx:SIGNAL-INSTANCE ID="sgi92">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig86"/>
+            <fx:SIGNAL-REF ID-REF="sig90"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi93">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig87"/>
+            <fx:SIGNAL-REF ID-REF="sig91"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi94">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
-            <fx:SIGNAL-REF ID-REF="sig88"/>
+            <fx:SIGNAL-REF ID-REF="sig92"/>
           </fx:SIGNAL-INSTANCE>
           <fx:SIGNAL-INSTANCE ID="sgi95">
+            <fx:BIT-POSITION>0</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+            <fx:SIGNAL-REF ID-REF="sig93"/>
+          </fx:SIGNAL-INSTANCE>
+        </fx:SIGNAL-INSTANCES>
+      </fx:PDU>
+      <fx:PDU ID="pdu20">
+        <ho:SHORT-NAME>MC_Temp_3_pdu</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+        <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
+        <fx:SIGNAL-INSTANCES>
+          <fx:SIGNAL-INSTANCE ID="sgi96">
+            <fx:BIT-POSITION>48</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+            <fx:SIGNAL-REF ID-REF="sig86"/>
+          </fx:SIGNAL-INSTANCE>
+          <fx:SIGNAL-INSTANCE ID="sgi97">
+            <fx:BIT-POSITION>32</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+            <fx:SIGNAL-REF ID-REF="sig87"/>
+          </fx:SIGNAL-INSTANCE>
+          <fx:SIGNAL-INSTANCE ID="sgi98">
+            <fx:BIT-POSITION>16</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+            <fx:SIGNAL-REF ID-REF="sig88"/>
+          </fx:SIGNAL-INSTANCE>
+          <fx:SIGNAL-INSTANCE ID="sgi99">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig89"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu19">
+      <fx:PDU ID="pdu21">
         <ho:SHORT-NAME>MC_Torque_Timer_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi96">
+          <fx:SIGNAL-INSTANCE ID="sgi100">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig14"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi97">
+          <fx:SIGNAL-INSTANCE ID="sgi101">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig15"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi98">
+          <fx:SIGNAL-INSTANCE ID="sgi102">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig16"/>
           </fx:SIGNAL-INSTANCE>
         </fx:SIGNAL-INSTANCES>
       </fx:PDU>
-      <fx:PDU ID="pdu20">
+      <fx:PDU ID="pdu22">
         <ho:SHORT-NAME>MC_Voltage_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
         <fx:SIGNAL-INSTANCES>
-          <fx:SIGNAL-INSTANCE ID="sgi99">
+          <fx:SIGNAL-INSTANCE ID="sgi103">
             <fx:BIT-POSITION>48</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig64"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi100">
+          <fx:SIGNAL-INSTANCE ID="sgi104">
             <fx:BIT-POSITION>32</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig65"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi101">
+          <fx:SIGNAL-INSTANCE ID="sgi105">
             <fx:BIT-POSITION>16</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig66"/>
           </fx:SIGNAL-INSTANCE>
-          <fx:SIGNAL-INSTANCE ID="sgi102">
+          <fx:SIGNAL-INSTANCE ID="sgi106">
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
             <fx:SIGNAL-REF ID-REF="sig67"/>
@@ -1144,7 +1216,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst1">
-            <fx:PDU-REF ID-REF="pdu14"/>
+            <fx:PDU-REF ID-REF="pdu16"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1156,7 +1228,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst2">
-            <fx:PDU-REF ID-REF="pdu10"/>
+            <fx:PDU-REF ID-REF="pdu12"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1168,7 +1240,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst3">
-            <fx:PDU-REF ID-REF="pdu7"/>
+            <fx:PDU-REF ID-REF="pdu9"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1180,7 +1252,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst4">
-            <fx:PDU-REF ID-REF="pdu19"/>
+            <fx:PDU-REF ID-REF="pdu21"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1192,7 +1264,7 @@
         <fx:BYTE-LENGTH>6</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst5">
-            <fx:PDU-REF ID-REF="pdu5"/>
+            <fx:PDU-REF ID-REF="pdu7"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1204,7 +1276,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst6">
-            <fx:PDU-REF ID-REF="pdu9"/>
+            <fx:PDU-REF ID-REF="pdu11"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1216,7 +1288,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst7">
-            <fx:PDU-REF ID-REF="pdu12"/>
+            <fx:PDU-REF ID-REF="pdu14"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1228,7 +1300,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst8">
-            <fx:PDU-REF ID-REF="pdu13"/>
+            <fx:PDU-REF ID-REF="pdu15"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1240,7 +1312,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst9">
-            <fx:PDU-REF ID-REF="pdu11"/>
+            <fx:PDU-REF ID-REF="pdu13"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1252,7 +1324,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst10">
-            <fx:PDU-REF ID-REF="pdu2"/>
+            <fx:PDU-REF ID-REF="pdu3"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1264,7 +1336,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst11">
-            <fx:PDU-REF ID-REF="pdu1"/>
+            <fx:PDU-REF ID-REF="pdu2"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1276,7 +1348,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst12">
-            <fx:PDU-REF ID-REF="pdu20"/>
+            <fx:PDU-REF ID-REF="pdu22"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1288,7 +1360,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst13">
-            <fx:PDU-REF ID-REF="pdu6"/>
+            <fx:PDU-REF ID-REF="pdu8"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1300,7 +1372,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst14">
-            <fx:PDU-REF ID-REF="pdu15"/>
+            <fx:PDU-REF ID-REF="pdu17"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1312,7 +1384,7 @@
         <fx:BYTE-LENGTH>6</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst15">
-            <fx:PDU-REF ID-REF="pdu8"/>
+            <fx:PDU-REF ID-REF="pdu10"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1324,7 +1396,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst16">
-            <fx:PDU-REF ID-REF="pdu4"/>
+            <fx:PDU-REF ID-REF="pdu6"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1336,7 +1408,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst17">
-            <fx:PDU-REF ID-REF="pdu18"/>
+            <fx:PDU-REF ID-REF="pdu20"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1348,7 +1420,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst18">
-            <fx:PDU-REF ID-REF="pdu17"/>
+            <fx:PDU-REF ID-REF="pdu19"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1360,7 +1432,7 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst19">
-            <fx:PDU-REF ID-REF="pdu16"/>
+            <fx:PDU-REF ID-REF="pdu18"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1368,12 +1440,36 @@
       </fx:FRAME>
       <fx:FRAME ID="frm20">
         <ho:SHORT-NAME>BMS_Voltage_Overall</ho:SHORT-NAME>
-        <ho:DESC>bms voltage min and max
+        <ho:DESC>bms  minimum, average,  maximum, and total voltage
 </ho:DESC>
         <fx:BYTE-LENGTH>7</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst20">
-            <fx:PDU-REF ID-REF="pdu3"/>
+            <fx:PDU-REF ID-REF="pdu5"/>
+            <fx:BIT-POSITION>0</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+          </fx:PDU-INSTANCE>
+        </fx:PDU-INSTANCES>
+      </fx:FRAME>
+      <fx:FRAME ID="frm21">
+        <ho:SHORT-NAME>BMS_Temperature_Overall</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>7</fx:BYTE-LENGTH>
+        <fx:PDU-INSTANCES>
+          <fx:PDU-INSTANCE ID="pduinst21">
+            <fx:PDU-REF ID-REF="pdu4"/>
+            <fx:BIT-POSITION>0</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+          </fx:PDU-INSTANCE>
+        </fx:PDU-INSTANCES>
+      </fx:FRAME>
+      <fx:FRAME ID="frm22">
+        <ho:SHORT-NAME>BMS_Cell_Voltages0_7</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+        <fx:PDU-INSTANCES>
+          <fx:PDU-INSTANCE ID="pduinst22">
+            <fx:PDU-REF ID-REF="pdu1"/>
             <fx:BIT-POSITION>0</fx:BIT-POSITION>
             <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
           </fx:PDU-INSTANCE>
@@ -1973,6 +2069,29 @@
         <fx:DEFAULT-VALUE>0</fx:DEFAULT-VALUE>
         <fx:CODING-REF ID-REF="cod102"/>
       </fx:SIGNAL>
+      <fx:SIGNAL ID="sig103">
+        <ho:SHORT-NAME>TCellMin</ho:SHORT-NAME>
+        <ho:DESC>Minimum Cell Temperature</ho:DESC>
+        <fx:DEFAULT-VALUE>25</fx:DEFAULT-VALUE>
+        <fx:CODING-REF ID-REF="cod103"/>
+      </fx:SIGNAL>
+      <fx:SIGNAL ID="sig104">
+        <ho:SHORT-NAME>TCellMax</ho:SHORT-NAME>
+        <ho:DESC>Maximum Cell Temperature</ho:DESC>
+        <fx:DEFAULT-VALUE>25</fx:DEFAULT-VALUE>
+        <fx:CODING-REF ID-REF="cod104"/>
+      </fx:SIGNAL>
+      <fx:SIGNAL ID="sig105">
+        <ho:SHORT-NAME>TCellAvg</ho:SHORT-NAME>
+        <ho:DESC>Average Cell Temperature</ho:DESC>
+        <fx:DEFAULT-VALUE>25</fx:DEFAULT-VALUE>
+        <fx:CODING-REF ID-REF="cod105"/>
+      </fx:SIGNAL>
+      <fx:SIGNAL ID="sig106">
+        <ho:SHORT-NAME>Cell1</ho:SHORT-NAME>
+        <fx:DEFAULT-VALUE>0</fx:DEFAULT-VALUE>
+        <fx:CODING-REF ID-REF="cod106"/>
+      </fx:SIGNAL>
     </fx:SIGNALS>
   </fx:ELEMENTS>
   <fx:PROCESSING-INFORMATION xmlns="http://www.asam.net/xml">
@@ -2384,6 +2503,22 @@
         </ho:UNIT>
         <ho:UNIT ID="unit102">
           <ho:SHORT-NAME>unit102</ho:SHORT-NAME>
+          <ho:DISPLAY-NAME>Volts</ho:DISPLAY-NAME>
+        </ho:UNIT>
+        <ho:UNIT ID="unit103">
+          <ho:SHORT-NAME>unit103</ho:SHORT-NAME>
+          <ho:DISPLAY-NAME>Celsius</ho:DISPLAY-NAME>
+        </ho:UNIT>
+        <ho:UNIT ID="unit104">
+          <ho:SHORT-NAME>unit104</ho:SHORT-NAME>
+          <ho:DISPLAY-NAME>Celsius</ho:DISPLAY-NAME>
+        </ho:UNIT>
+        <ho:UNIT ID="unit105">
+          <ho:SHORT-NAME>unit105</ho:SHORT-NAME>
+          <ho:DISPLAY-NAME>Celsius</ho:DISPLAY-NAME>
+        </ho:UNIT>
+        <ho:UNIT ID="unit106">
+          <ho:SHORT-NAME>unit106</ho:SHORT-NAME>
           <ho:DISPLAY-NAME>Volts</ho:DISPLAY-NAME>
         </ho:UNIT>
       </ho:UNITS>
@@ -5846,6 +5981,142 @@
                     <ho:COMPU-NUMERATOR>
                       <ho:V>0</ho:V>
                       <ho:V>655.35</ho:V>
+                    </ho:COMPU-NUMERATOR>
+                    <ho:COMPU-DENOMINATOR>
+                      <ho:V>1</ho:V>
+                    </ho:COMPU-DENOMINATOR>
+                  </ho:COMPU-RATIONAL-COEFFS>
+                </ho:COMPU-SCALE>
+              </ho:COMPU-SCALES>
+            </ho:COMPU-INTERNAL-TO-PHYS>
+          </ho:COMPU-METHOD>
+        </ho:COMPU-METHODS>
+      </fx:CODING>
+      <fx:CODING ID="cod103">
+        <ho:SHORT-NAME>cod103</ho:SHORT-NAME>
+        <ho:CODED-TYPE ho:BASE-DATA-TYPE="A_UINT8" CATEGORY="STANDARD-LENGTH-TYPE" ENCODING="UNSIGNED">
+          <ho:BIT-LENGTH>8</ho:BIT-LENGTH>
+        </ho:CODED-TYPE>
+        <ho:COMPU-METHODS>
+          <ho:COMPU-METHOD>
+            <ho:SHORT-NAME>cpm103</ho:SHORT-NAME>
+            <ho:CATEGORY>LINEAR</ho:CATEGORY>
+            <ho:UNIT-REF ID-REF="unit103"/>
+            <ho:PHYS-CONSTRS>
+              <ho:SCALE-CONSTR>
+                <ho:LOWER-LIMIT INTERVAL-TYPE="CLOSED">-100</ho:LOWER-LIMIT>
+                <ho:UPPER-LIMIT INTERVAL-TYPE="CLOSED">155</ho:UPPER-LIMIT>
+              </ho:SCALE-CONSTR>
+            </ho:PHYS-CONSTRS>
+            <ho:COMPU-INTERNAL-TO-PHYS>
+              <ho:COMPU-SCALES>
+                <ho:COMPU-SCALE>
+                  <ho:COMPU-RATIONAL-COEFFS>
+                    <ho:COMPU-NUMERATOR>
+                      <ho:V>-100</ho:V>
+                      <ho:V>1</ho:V>
+                    </ho:COMPU-NUMERATOR>
+                    <ho:COMPU-DENOMINATOR>
+                      <ho:V>1</ho:V>
+                    </ho:COMPU-DENOMINATOR>
+                  </ho:COMPU-RATIONAL-COEFFS>
+                </ho:COMPU-SCALE>
+              </ho:COMPU-SCALES>
+            </ho:COMPU-INTERNAL-TO-PHYS>
+          </ho:COMPU-METHOD>
+        </ho:COMPU-METHODS>
+      </fx:CODING>
+      <fx:CODING ID="cod104">
+        <ho:SHORT-NAME>cod104</ho:SHORT-NAME>
+        <ho:CODED-TYPE ho:BASE-DATA-TYPE="A_UINT8" CATEGORY="STANDARD-LENGTH-TYPE" ENCODING="UNSIGNED">
+          <ho:BIT-LENGTH>8</ho:BIT-LENGTH>
+        </ho:CODED-TYPE>
+        <ho:COMPU-METHODS>
+          <ho:COMPU-METHOD>
+            <ho:SHORT-NAME>cpm104</ho:SHORT-NAME>
+            <ho:CATEGORY>LINEAR</ho:CATEGORY>
+            <ho:UNIT-REF ID-REF="unit104"/>
+            <ho:PHYS-CONSTRS>
+              <ho:SCALE-CONSTR>
+                <ho:LOWER-LIMIT INTERVAL-TYPE="CLOSED">-100</ho:LOWER-LIMIT>
+                <ho:UPPER-LIMIT INTERVAL-TYPE="CLOSED">155</ho:UPPER-LIMIT>
+              </ho:SCALE-CONSTR>
+            </ho:PHYS-CONSTRS>
+            <ho:COMPU-INTERNAL-TO-PHYS>
+              <ho:COMPU-SCALES>
+                <ho:COMPU-SCALE>
+                  <ho:COMPU-RATIONAL-COEFFS>
+                    <ho:COMPU-NUMERATOR>
+                      <ho:V>-100</ho:V>
+                      <ho:V>1</ho:V>
+                    </ho:COMPU-NUMERATOR>
+                    <ho:COMPU-DENOMINATOR>
+                      <ho:V>1</ho:V>
+                    </ho:COMPU-DENOMINATOR>
+                  </ho:COMPU-RATIONAL-COEFFS>
+                </ho:COMPU-SCALE>
+              </ho:COMPU-SCALES>
+            </ho:COMPU-INTERNAL-TO-PHYS>
+          </ho:COMPU-METHOD>
+        </ho:COMPU-METHODS>
+      </fx:CODING>
+      <fx:CODING ID="cod105">
+        <ho:SHORT-NAME>cod105</ho:SHORT-NAME>
+        <ho:CODED-TYPE ho:BASE-DATA-TYPE="A_UINT8" CATEGORY="STANDARD-LENGTH-TYPE" ENCODING="UNSIGNED">
+          <ho:BIT-LENGTH>8</ho:BIT-LENGTH>
+        </ho:CODED-TYPE>
+        <ho:COMPU-METHODS>
+          <ho:COMPU-METHOD>
+            <ho:SHORT-NAME>cpm105</ho:SHORT-NAME>
+            <ho:CATEGORY>LINEAR</ho:CATEGORY>
+            <ho:UNIT-REF ID-REF="unit105"/>
+            <ho:PHYS-CONSTRS>
+              <ho:SCALE-CONSTR>
+                <ho:LOWER-LIMIT INTERVAL-TYPE="CLOSED">-100</ho:LOWER-LIMIT>
+                <ho:UPPER-LIMIT INTERVAL-TYPE="CLOSED">155</ho:UPPER-LIMIT>
+              </ho:SCALE-CONSTR>
+            </ho:PHYS-CONSTRS>
+            <ho:COMPU-INTERNAL-TO-PHYS>
+              <ho:COMPU-SCALES>
+                <ho:COMPU-SCALE>
+                  <ho:COMPU-RATIONAL-COEFFS>
+                    <ho:COMPU-NUMERATOR>
+                      <ho:V>-100</ho:V>
+                      <ho:V>1</ho:V>
+                    </ho:COMPU-NUMERATOR>
+                    <ho:COMPU-DENOMINATOR>
+                      <ho:V>1</ho:V>
+                    </ho:COMPU-DENOMINATOR>
+                  </ho:COMPU-RATIONAL-COEFFS>
+                </ho:COMPU-SCALE>
+              </ho:COMPU-SCALES>
+            </ho:COMPU-INTERNAL-TO-PHYS>
+          </ho:COMPU-METHOD>
+        </ho:COMPU-METHODS>
+      </fx:CODING>
+      <fx:CODING ID="cod106">
+        <ho:SHORT-NAME>cod106</ho:SHORT-NAME>
+        <ho:CODED-TYPE ho:BASE-DATA-TYPE="A_UINT8" CATEGORY="STANDARD-LENGTH-TYPE" ENCODING="UNSIGNED">
+          <ho:BIT-LENGTH>8</ho:BIT-LENGTH>
+        </ho:CODED-TYPE>
+        <ho:COMPU-METHODS>
+          <ho:COMPU-METHOD>
+            <ho:SHORT-NAME>cpm106</ho:SHORT-NAME>
+            <ho:CATEGORY>LINEAR</ho:CATEGORY>
+            <ho:UNIT-REF ID-REF="unit106"/>
+            <ho:PHYS-CONSTRS>
+              <ho:SCALE-CONSTR>
+                <ho:LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</ho:LOWER-LIMIT>
+                <ho:UPPER-LIMIT INTERVAL-TYPE="CLOSED">5</ho:UPPER-LIMIT>
+              </ho:SCALE-CONSTR>
+            </ho:PHYS-CONSTRS>
+            <ho:COMPU-INTERNAL-TO-PHYS>
+              <ho:COMPU-SCALES>
+                <ho:COMPU-SCALE>
+                  <ho:COMPU-RATIONAL-COEFFS>
+                    <ho:COMPU-NUMERATOR>
+                      <ho:V>2</ho:V>
+                      <ho:V>0.01</ho:V>
                     </ho:COMPU-NUMERATOR>
                     <ho:COMPU-DENOMINATOR>
                       <ho:V>1</ho:V>
