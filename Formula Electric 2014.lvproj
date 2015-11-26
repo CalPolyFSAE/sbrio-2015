@@ -27,6 +27,11 @@
 			<Item Name="NI-XNET Frame&amp;Log - CAN Frame to Table.vi" Type="VI" URL="../Testing Code/NI-XNET Frame&amp;Log - CAN Frame to Table.vi"/>
 			<Item Name="Process Raw CAN TDMS into Usable TDMS.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process Raw CAN TDMS into Usable TDMS.vi"/>
 		</Item>
+		<Item Name="Telemetry Decoding DLL" Type="Folder">
+			<Item Name="Decode BMS Packet.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Telemetry Decode Functions/Decode BMS Packet.vi"/>
+			<Item Name="Decode FPGA Packet.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Telemetry Decode Functions/Decode FPGA Packet.vi"/>
+			<Item Name="Decode MC Packet.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Telemetry Decode Functions/Decode MC Packet.vi"/>
+		</Item>
 		<Item Name="Process Telemetry Folder.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Process Telemetry Folder.vi"/>
 		<Item Name="Remote Calibration Panel.vi" Type="VI" URL="../Remote Calibration Panel.vi"/>
 		<Item Name="SCM Host Calibration.vi" Type="VI" URL="../SCM Host Calibration.vi"/>
@@ -206,6 +211,196 @@
 			<Item Name="VSM States.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/VSM States.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="CPFSAE Telemetry Decoder" Type="DLL">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{1470D13F-5397-4BB3-B215-32BEBE2A2372}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{84297405-5338-4595-A25B-07F997A44611}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8208AF56-CB94-4CF3-B1DC-1B6D4171EA14}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">CPFSAE Telemetry Decoder</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/CPFSAE Telemetry Decoder</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5326D4AE-8C6E-4F85-8DF7-6B77208D42AC}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">CPFSAETelemetryDecoder.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/CPFSAE Telemetry Decoder/CPFSAETelemetryDecoder.dll</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/CPFSAE Telemetry Decoder/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Dll_compatibilityWith2011" Type="Bool">false</Property>
+				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
+				<Property Name="Dll_headerGUID" Type="Str">{208EE046-3F2D-4403-8490-2843BC5A2011}</Property>
+				<Property Name="Dll_libGUID" Type="Str">{AF754E2C-6850-4A3F-A730-21A9A445F663}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DC8C975B-D718-48E7-991E-0983CF08D68F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">10</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">packet</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">4</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">5</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">xmlOutputBuffer</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">2</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoName" Type="Str">packetLength</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoName" Type="Str">xmlOutputBufferLength</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]CallingConv" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]Name" Type="Str">DecodeFPGAPacket</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">xmlOutputLength</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfoCPTM" Type="Bin">&amp;!#!!!!!!!5!"!!!!"2!-0````]+?'VM)(.U=GFO:Q!!$5!&amp;!!&gt;/&gt;7VF=GFD!"*!1!!"`````Q!#"5&amp;S=G&amp;Z!&amp;1!]!!-!!!!!!!"!!!!!!!!!!!!!!!!!!!!!Q!!!A!!?!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!%!"!</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Telemetry Decoding DLL/Decode FPGA Packet.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">10</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">3</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">packet</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">4</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">5</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">xmlOutputBuffer</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">2</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoName" Type="Str">packetLength</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoName" Type="Str">xmlOutputBufferLength</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]CallingConv" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]Name" Type="Str">DecodeBMSPacket</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">xmlOutputLength</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfoCPTM" Type="Bin">&amp;!#!!!!!!!5!"!!!!"2!-0````]+?'VM)(.U=GFO:Q!!$5!&amp;!!&gt;/&gt;7VF=GFD!"*!1!!"`````Q!#"5&amp;S=G&amp;Z!&amp;1!]!!-!!!!!!!"!!!!!!!!!!!!!!!!!!!!!Q!!!A!!?!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!%!"!</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Telemetry Decoding DLL/Decode BMS Packet.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">ExportedVI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">10</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">3</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">packet</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">4</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">5</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">xmlOutputBuffer</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">2</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[3]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[3]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[3]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[3]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[3]VIProtoName" Type="Str">packetLength</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[3]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[4]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[4]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[4]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[4]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[4]VIProtoName" Type="Str">xmlOutputBufferLength</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[4]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]CallingConv" Type="Int">1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]Name" Type="Str">DecodeMCPacket</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">xmlOutputLength</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfoCPTM" Type="Bin">&amp;!#!!!!!!!5!"!!!!"2!-0````]+?'VM)(.U=GFO:Q!!$5!&amp;!!&gt;/&gt;7VF=GFD!"*!1!!"`````Q!#"5&amp;S=G&amp;Z!&amp;1!]!!-!!!!!!!"!!!!!!!!!!!!!!!!!!!!!Q!!!A!!?!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!%!"!</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Telemetry Decoding DLL/Decode MC Packet.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">ExportedVI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">Cal Poly Racing</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">CPFSAE Telemetry Decoder</Property>
+				<Property Name="TgtF_internalName" Type="Str">CPFSAE Telemetry Decoder</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 </Property>
+				<Property Name="TgtF_productName" Type="Str">CPFSAE Telemetry Decoder</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{6399F517-8976-4A6A-A947-8B3C65CA0CB6}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">CPFSAETelemetryDecoder.dll</Property>
+			</Item>
 			<Item Name="FE Telemetry" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{335FDC41-2082-42DE-8219-1D0DF82E36A8}</Property>
@@ -220,7 +415,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Thomas Willson/Desktop/FE Telemetry</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D3711800-8D45-414D-AD18-2D2611B4A079}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Thomas Willson/Desktop/FE Telemetry/Application.exe</Property>
