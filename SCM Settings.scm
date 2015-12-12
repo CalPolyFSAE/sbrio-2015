@@ -1,5 +1,5 @@
 [Paths]
-TargetAddress = "0.0.0.0"
+TargetAddress = "10.0.1.50"
 HostVI = "SCM Host Calibration.vi"
 PairingFile = "SCMPairing.par"
 UnitsFile = ""
@@ -10,14 +10,14 @@ Project-Target-VI = ""
 WorkspaceFile = ""
 
 [Options]
-TRANSPARENT_MODE = FALSE
-MINI = FALSE
-AUTO = TRUE
-START_TARGET = FALSE
-FTP_VIS = FALSE
-SHOW_HOST_MENUS = FALSE
-CommLoopTime = 50
-FaultUpdateRate = 50
+TRANSPARENT_MODE = FALSE    
+MINI = FALSE    
+AUTO = FALSE    
+START_TARGET = FALSE    
+FTP_VIS = FALSE    
+SHOW_HOST_MENUS = FALSE    
+CommLoopTime = 50    
+FaultUpdateRate = 50    
 
 [Faults]
 VeryLow = ""
