@@ -121,6 +121,7 @@
 				<Item Name="panelResize_tdms.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/panelResize_tdms.vi"/>
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
 				<Item Name="SCM - RT Types.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - RT Types.ctl"/>
+				<Item Name="scm32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/scm32.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -721,6 +722,11 @@ DirectoryIndex index.htm
 		<Item Name="Lap Statistics" Type="Folder">
 			<Item Name="Lap Statistics.vi" Type="VI" URL="../Lap Statistics.vi"/>
 			<Item Name="Lap Statistics.ctl" Type="VI" URL="../Lap Statistics.ctl"/>
+		</Item>
+		<Item Name="RS232" Type="Folder">
+			<Item Name="Read RS232.vi" Type="VI" URL="../Formula Hybrid 2012 r1/RS232/Read RS232.vi"/>
+			<Item Name="Process RS232 Messages.vi" Type="VI" URL="../Formula Hybrid 2012 r1/RS232/Process RS232 Messages.vi"/>
+			<Item Name="BMS_RS232_Sentence_Format.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/RS232/BMS_RS232_Sentence_Format.ctl"/>
 		</Item>
 		<Item Name="Car Main.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Car Main.vi"/>
 		<Item Name="Chassis" Type="sbRIO Chassis">
@@ -3829,8 +3835,14 @@ DirectoryIndex index.htm
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="IP SPI&amp;I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Library/IP SPI&amp;I2C.lvlib"/>
-						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+						<Item Name="Private Data (SPI).ctl" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Type Def/Private Data (SPI).ctl"/>
+						<Item Name="Calculate Divider.vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Public/Calculate Divider.vi"/>
+						<Item Name="Configure Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Configure Port (SPI).vi"/>
+						<Item Name="Write Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Write Port (SPI).vi"/>
+						<Item Name="Arm Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Arm Port (SPI).vi"/>
+						<Item Name="Read Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Read Port (SPI).vi"/>
+						<Item Name="Initialize Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Initialize Port (SPI).vi"/>
+						<Item Name="IP Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/IP Port (SPI).vi"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
@@ -3913,6 +3925,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="FPGA Calibration.vi" Type="VI" URL="../FPGA Calibration.vi"/>
 		<Item Name="TDMS Init.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init.vi"/>
+		<Item Name="1dstr.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/1dstr.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
@@ -4033,6 +4046,9 @@ DirectoryIndex index.htm
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
