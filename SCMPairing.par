@@ -15,6 +15,8 @@ MC Control	Prefs	NMCCANOffset	NMCCANOffset
 Torque Control	Throttle Maps	NThrottleMapRotaryMap	NThrottleMapRotaryMap
 Torque Control	Torque Maps	NTorqueMapRotaryMap	NTorqueMapRotaryMap
 MC Control	Prefs	pBrakeFActivation	pBrakeFActivation
+Brakes	BrakeLight	pBrakeFBrakeLightThresh	pBrakeFBrakeLightThresh
+Brakes	BrakeLight	pBrakeRBrakeLightThresh	pBrakeRBrakeLightThresh
 Torque Control	Throttle Maps	rThrottleMap0	rThrottleMap0
 Torque Control	Throttle Maps	rThrottleMap1	rThrottleMap1
 Torque Control	Throttle Maps	rThrottleMap2	rThrottleMap2
@@ -36,6 +38,7 @@ FPGA	TPS	rTPS2Max	rTPS2Max
 FPGA	TPS	rTPS2Min	rTPS2Min
 FPGA	TPS	rTPS2Unscaled	rTPS2Unscaled
  	 	SCalibrationFileName	SCalibrationFileName
+FPGA	Cooling	TCellMaxFanThreshold	TCellMaxFanThreshold
 Telemetry	FPGA	tFPGATelemetryPeriod	tFPGATelemetryPeriod
 FPGA	Lap Timing	tLapMin	tLapMin
 FPGA	Lap Timing	tLapReference	tLapReference
