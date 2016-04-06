@@ -686,6 +686,7 @@ DirectoryIndex index.htm
 				<Item Name="SendDrivingCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendDrivingCAN.vi"/>
 				<Item Name="SendTriggerCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendTriggerCAN.vi"/>
 				<Item Name="SendSystemsCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendSystemsCAN.vi"/>
+				<Item Name="SendChargingCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendChargingCAN.vi"/>
 			</Item>
 			<Item Name="SGL to HALF" Type="Folder">
 				<Item Name="Sgl_to_Half_Prec_Poly.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Sgl_to_Half_Prec_Poly.vi"/>
@@ -4038,10 +4039,10 @@ DirectoryIndex index.htm
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -4085,7 +4086,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2CA642-8A01-491E-AF3B-DC7F51963C21}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">73</Property>
+				<Property Name="Bld_version.build" Type="Int">74</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
