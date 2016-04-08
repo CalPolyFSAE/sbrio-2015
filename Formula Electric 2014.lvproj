@@ -35,6 +35,7 @@
 		</Item>
 		<Item Name="Process Telemetry Folder.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Process Telemetry Folder.vi"/>
 		<Item Name="Remote Calibration Panel.vi" Type="VI" URL="../Remote Calibration Panel.vi"/>
+		<Item Name="Scale Cell Balance.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Balance.vi"/>
 		<Item Name="SCM Host Calibration.vi" Type="VI" URL="../SCM Host Calibration.vi"/>
 		<Item Name="TDMS File Viewer.vi" Type="VI" URL="../Formula Hybrid 2012 r1/PC Test Code/TDMS File Viewer.vi"/>
 		<Item Name="Telemetry Display.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Telemetry Display.vi"/>
@@ -168,9 +169,6 @@
 			<Item Name="NI-XNET Frame&amp;Log - Convert Single Frame (Raw to CAN).vi" Type="VI" URL="../Testing Code/NI-XNET Frame&amp;Log - Convert Single Frame (Raw to CAN).vi"/>
 			<Item Name="NI-XNET Frame&amp;Log - Converter.ctl" Type="VI" URL="../Testing Code/NI-XNET Frame&amp;Log - Converter.ctl"/>
 			<Item Name="NI-XNET Frame&amp;Log - Get Frame Size.vi" Type="VI" URL="../Testing Code/NI-XNET Frame&amp;Log - Get Frame Size.vi"/>
-			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Process CAN Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Process CAN Frame.vi"/>
 			<Item Name="Process Run Fault.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/MC/Process Run Fault.vi"/>
 			<Item Name="Reason for Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Reason for Shutdown.ctl"/>
@@ -4058,10 +4056,8 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ADXL345 Output.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA/SPI v2/ADXL345 Output.ctl"/>
-			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Latest.lvbitx" Type="Document" URL="../FPGA Bitfiles/Latest.lvbitx"/>
+			<Item Name="Scale Cell Balance.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Balance.vi"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
