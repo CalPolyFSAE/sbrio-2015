@@ -685,6 +685,7 @@ DirectoryIndex index.htm
 			<Item Name="Vehicle Status to RIO OK.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status to RIO OK.vi"/>
 			<Item Name="RIO OK Control Loop.vi" Type="VI" URL="../Formula Hybrid 2012 r1/RIO OK Control Loop.vi"/>
 			<Item Name="Brake Light Controller.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Brake Light Controller.vi"/>
+			<Item Name="Find Latch Trip Reason.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Find Latch Trip Reason.vi"/>
 		</Item>
 		<Item Name="Test Code" Type="Folder">
 			<Item Name="Test CAN Logger with TDMS.vi" Type="VI" URL="../Testing Code/Test CAN Logger with TDMS.vi"/>
@@ -715,6 +716,7 @@ DirectoryIndex index.htm
 			<Item Name="SubsystemStatusToCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SubsystemStatusToCAN.vi"/>
 			<Item Name="SendDashCAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SendDashCAN.vi"/>
 			<Item Name="NDashPage.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/NDashPage.ctl"/>
+			<Item Name="SDashLEDs.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SDashLEDs.ctl"/>
 			<Item Name="DashDriverInputs.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/DashDriverInputs.ctl"/>
 		</Item>
 		<Item Name="Lap Statistics" Type="Folder">
