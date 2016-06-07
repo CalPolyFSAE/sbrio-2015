@@ -1,6 +1,7 @@
 SCM Pairings File 
 v1.1
 Target Class	Target Group	Target Name	Host Item
+Shutdown Control	Precharge	bMCVoltageCheckDisable	bMCVoltageCheckDisable
 FPGA	Lap Timing	bResetFastestLap	bResetFastestLap
 FPGA	Lap Timing	bResetNLap	bResetNLap
 FPGA	Wheel Speed	bWheelFLFail	bWheelFLFail
@@ -47,6 +48,7 @@ Telemetry	MC	tMCTelemetryPeriod	tMCTelemetryPeriod
 Shutdown Control	Precharge	tPrecharge	tPrecharge
 Shutdown Control	RTDS	tRTDS	tRTDS
 Telemetry	TDMS	tTDMSTelemetryPeriod	tTDMSTelemetryPeriod
+Shutdown Control	Precharge	VPrechargeMinimum	VPrechargeMinimum
 FPGA	Steering Sensor	VSteerWheelMiddle	VSteerWheelMiddle
 FPGA	 	VSupplyOffset	VSupplyOffset
 FPGA	Wheel Speed	xTyreDiameter	xTireDiameter

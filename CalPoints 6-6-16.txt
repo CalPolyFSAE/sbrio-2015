@@ -29,10 +29,10 @@ FPGA|Wheel Speed|bWheelFRFail	BOOLControl	F	|					67		FPGA Calibration.vi
 FPGA|Wheel Speed|xTyreDiameter	SGLControl	0.530000	m					68		FPGA Calibration.vi	
 MC Control|Prefs|NMCCANOffset	U32Control	512						69		MC Control Loop.vi	
 MC Control|Prefs|pBrakeFActivation	SGLControl	100.000000	psi					70	Changes the activation brake pressure to allow the motor controller to be enabled.	MC Control Loop.vi	
-Shutdown Control|Precharge|bMCVoltageCheckDisable	BOOLControl	F	|					71	Allows the precharge sequence to be tested without the motor controller connected.	Shutdown State Machine.lvsc:Diagram.vi	
-Shutdown Control|Precharge|tPrecharge	U32Control	7000	ms					72		Shutdown State Machine Loop.vi	
-Shutdown Control|RTDS|tRTDS	U32Control	1000	ms					73		Shutdown State Machine Loop.vi	
-Shutdownn Control|Precharge|VPrechargeMinimum	SGLControl	220.000000	V					74		Shutdown State Machine.lvsc:Diagram.vi	
+Shutdown Control|Precharge|VPrechargeMinimum	SGLControl	220.000000	V					71		Shutdown State Machine.lvsc:Diagram.vi	
+Shutdown Control|Precharge|bMCVoltageCheckDisable	BOOLControl	F	|					72	Allows the precharge sequence to be tested without the motor controller connected.	Shutdown State Machine.lvsc:Diagram.vi	
+Shutdown Control|Precharge|tPrecharge	U32Control	7000	ms					73		Shutdown State Machine Loop.vi	
+Shutdown Control|RTDS|tRTDS	U32Control	1000	ms					74		Shutdown State Machine Loop.vi	
 Telemetry|FPGA|tFPGATelemetryPeriod	U32Control	200	ms					75		Send FPGA Telemetry.vi	
 Telemetry|MC|tMCTelemetryPeriod	U32Control	100	ms					76		Send MC Telemetry.vi	
 Telemetry|TDMS|tTDMSTelemetryPeriod	U32Control	1000	ms					77		Send FPGA Telemetry.vi	
