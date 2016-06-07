@@ -2,6 +2,7 @@ SCM Pairings File
 v1.1
 Target Class	Target Group	Target Name	Host Item
 Shutdown Control	Precharge	bMCVoltageCheckDisable	bMCVoltageCheckDisable
+Torque Control	Power Limiter	bPowerLimiterDisable	bPowerLimiterDisable
 FPGA	Lap Timing	bResetFastestLap	bResetFastestLap
 FPGA	Lap Timing	bResetNLap	bResetNLap
 FPGA	Wheel Speed	bWheelFLFail	bWheelFLFail
@@ -11,6 +12,9 @@ ATLAS	Session Information	CCircuit	CCircuit
 ATLAS	Session Information	CDriverName	CDriverName
 ATLAS	Session Information	CExtraNotes	CExtraNotes
 ATLAS	Session Information	CSessionDescription	CSessionDescription
+Torque Control	Power Limiter	kPID_D	kPID_D
+Torque Control	Power Limiter	kPID_I	kPID_I
+Torque Control	Power Limiter	kPID_P	kPID_P
 Dashboard	 	NDashRateDividerRotaryMap	NDashRateDividerRotaryMap
 MC Control	Prefs	NMCCANOffset	NMCCANOffset
 Torque Control	Throttle Maps	NThrottleMapRotaryMap	NThrottleMapRotaryMap
@@ -18,6 +22,8 @@ Torque Control	Torque Maps	NTorqueMapRotaryMap	NTorqueMapRotaryMap
 MC Control	Prefs	pBrakeFActivation	pBrakeFActivation
 Brakes	BrakeLight	pBrakeFBrakeLightThresh	pBrakeFBrakeLightThresh
 Brakes	BrakeLight	pBrakeRBrakeLightThresh	pBrakeRBrakeLightThresh
+Torque Control	Power Limiter	PLimit	PLimit
+Torque Control	Power Limiter	PLimitCalculatedCurrent	PLimitCalculatedCurrent
 Torque Control	Throttle Maps	rThrottleMap0	rThrottleMap0
 Torque Control	Throttle Maps	rThrottleMap1	rThrottleMap1
 Torque Control	Throttle Maps	rThrottleMap2	rThrottleMap2

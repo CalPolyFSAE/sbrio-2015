@@ -669,6 +669,8 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="MC State Machine.lvsc" Type="LVStatechart" URL="../Formula Hybrid 2012 r1/MC State Machine.lvsc"/>
 			<Item Name="MC Control Loop.vi" Type="VI" URL="../Formula Hybrid 2012 r1/MC Control Loop.vi"/>
+			<Item Name="Process Motor Current.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Process Motor Current.vi"/>
+			<Item Name="Power Limiter.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Power Limiter.vi"/>
 		</Item>
 		<Item Name="Shutdown" Type="Folder">
 			<Item Name="Shutdown State Machine.lvsc" Type="LVStatechart" URL="../Formula Hybrid 2012 r1/Shutdown State Machine.lvsc"/>
@@ -4131,6 +4133,9 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
