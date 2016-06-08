@@ -161,6 +161,8 @@
 			<Item Name="AIR Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/AIR Status.ctl"/>
 			<Item Name="BMS Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/BMS Telemetry.ctl"/>
 			<Item Name="CAN Frame to XNET Raw Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN Frame to XNET Raw Frame.vi"/>
+			<Item Name="CAN Message Queue.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TX Library/CAN Message Queue.ctl"/>
+			<Item Name="CAN Message.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TX Library/CAN Message.ctl"/>
 			<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 			<Item Name="DashDriverInputs.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/DashDriverInputs.ctl"/>
 			<Item Name="Decode Car State.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Decode Car State.vi"/>
@@ -590,6 +592,14 @@ DirectoryIndex index.htm
 			<Item Name="Session Information.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Session Information.ctl"/>
 		</Item>
 		<Item Name="CAN" Type="Folder">
+			<Item Name="TX Library" Type="Folder">
+				<Item Name="Init Queue.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TX Library/Init Queue.vi"/>
+				<Item Name="Transmit CAN.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TX Library/Transmit CAN.vi"/>
+				<Item Name="CAN Message Queue.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TX Library/CAN Message Queue.ctl"/>
+				<Item Name="CAN Message.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TX Library/CAN Message.ctl"/>
+				<Item Name="CAN Transmit Loop.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TX Library/CAN Transmit Loop.vi"/>
+				<Item Name="Queued Frame to Normal Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TX Library/Queued Frame to Normal Frame.vi"/>
+			</Item>
 			<Item Name="TDMS Init_XNET.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init_XNET.vi"/>
 			<Item Name="CAN Frame.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN Frame.ctl"/>
 			<Item Name="CAN TDMS Channel Name String.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN TDMS Channel Name String.ctl"/>
@@ -3870,9 +3880,6 @@ DirectoryIndex index.htm
 					<Item Name="user.lib" Type="Folder">
 						<Item Name="NI SPI IP FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/NI SPI IP FPGA.lvlib"/>
 					</Item>
-					<Item Name="SPI Parameters.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/SPI/SPI Parameters.ctl"/>
-					<Item Name="Scale Output ADXL345.vi" Type="VI" URL="../Formula Hybrid 2012 r1/SPI/ADXL345/Scale Output ADXL345.vi"/>
-					<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -4135,10 +4142,10 @@ DirectoryIndex index.htm
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
