@@ -19,6 +19,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Logging Test" Type="Folder">
+			<Item Name="Read to Queue.vi" Type="VI" URL="../Logging Test/Read to Queue.vi"/>
+			<Item Name="Write to TDMS.vi" Type="VI" URL="../Logging Test/Write to TDMS.vi"/>
+		</Item>
 		<Item Name="TDMS CAN Log Utilities" Type="Folder">
 			<Item Name="CAN Data Playback.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN Data Playback.vi"/>
 			<Item Name="CAN Message Listing.vi" Type="VI" URL="../CAN Message Listing.vi"/>
@@ -171,6 +175,7 @@
 			<Item Name="Decode Inverter Enable States.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Decode Inverter Enable States.vi"/>
 			<Item Name="Decode Inverter State.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Decode Inverter State.vi"/>
 			<Item Name="Decode VSM.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Decode VSM.vi"/>
+			<Item Name="FPGA Telem for Slow Logging.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telem for Slow Logging.ctl"/>
 			<Item Name="FPGA Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry.ctl"/>
 			<Item Name="Global Data.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Global Data.vi"/>
 			<Item Name="Inverter Run Modes.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/Inverter Run Modes.ctl"/>
@@ -481,7 +486,7 @@
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -765,6 +770,7 @@ DirectoryIndex index.htm
 </CLIPDeclarationSet></Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">sbRIO-9626/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_9626FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/Thomas Willson/Documents/sbrio-2016/Formula Hybrid 2012 r1/FPGA/Sensor Library/FPGA.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path"></Property>
@@ -4146,11 +4152,11 @@ DirectoryIndex index.htm
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -4171,7 +4177,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2CA642-8A01-491E-AF3B-DC7F51963C21}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">77</Property>
+				<Property Name="Bld_version.build" Type="Int">89</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>

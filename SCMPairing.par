@@ -1,6 +1,7 @@
 SCM Pairings File 
 v1.1
 Target Class	Target Group	Target Name	Host Item
+Batteries	Charging	bDCDCEnable	bDCDCEnable
 Shutdown Control	Precharge	bMCVoltageCheckDisable	bMCVoltageCheckDisable
 Torque Control	Power Limiter	bPowerLimiterDisable	bPowerLimiterDisable
 FPGA	Lap Timing	bResetFastestLap	bResetFastestLap
