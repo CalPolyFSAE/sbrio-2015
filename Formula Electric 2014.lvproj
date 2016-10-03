@@ -3886,7 +3886,9 @@ DirectoryIndex index.htm
 						<Item Name="niFPGA BW CU Order 2 (16-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/butterworth/templates/niFPGA BW CU Order 2 (16-bit).vi"/>
 					</Item>
 					<Item Name="user.lib" Type="Folder">
-						<Item Name="NI SPI IP FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/NI SPI IP FPGA.lvlib"/>
+						<Item Name="Transfer Settings.ctl" Type="VI" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/Public/Transfer Settings.ctl"/>
+						<Item Name="Spi Master Inputs.ctl" Type="VI" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/Public/Spi Master Inputs.ctl"/>
+						<Item Name="Spi Master.vi" Type="VI" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/Public/Spi Master.vi"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
@@ -4155,6 +4157,9 @@ DirectoryIndex index.htm
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -4173,7 +4178,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2CA642-8A01-491E-AF3B-DC7F51963C21}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">91</Property>
+				<Property Name="Bld_version.build" Type="Int">95</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
