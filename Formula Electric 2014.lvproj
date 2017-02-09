@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -123,7 +123,6 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="panelResize_tdms.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/panelResize_tdms.vi"/>
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="SCM - RT Types.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - RT Types.ctl"/>
 				<Item Name="scm32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/scm32.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -249,6 +248,7 @@
 				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
 				<Property Name="Dll_headerGUID" Type="Str">{208EE046-3F2D-4403-8490-2843BC5A2011}</Property>
 				<Property Name="Dll_includeHeaders" Type="Bool">true</Property>
+				<Property Name="Dll_includeTypeLibrary" Type="Bool">true</Property>
 				<Property Name="Dll_libGUID" Type="Str">{AF754E2C-6850-4A3F-A730-21A9A445F663}</Property>
 				<Property Name="Source[0].itemID" Type="Str">{DC8C975B-D718-48E7-991E-0983CF08D68F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
@@ -4079,7 +4079,6 @@ DirectoryIndex index.htm
 				<Item Name="Read CalFile.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/CalPoint/Read CalFile.vi"/>
 				<Item Name="SCM - Check Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - Check Table Size.vi"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
-				<Item Name="NI_Real-Time Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/real-time/NI_Real-Time Libraries.lvlib"/>
 				<Item Name="SCM - Default Check.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - Default Check.vi"/>
 				<Item Name="SCM - Get Calibration.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - Get Calibration.vi"/>
 				<Item Name="SCM - Write Cal To File NI-DL.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - Write Cal To File NI-DL.vi"/>
@@ -4091,18 +4090,6 @@ DirectoryIndex index.htm
 				<Item Name="SCM - Live CalFile Update.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - Live CalFile Update.vi"/>
 				<Item Name="SCM - Set CalFile.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - Set CalFile.vi"/>
 				<Item Name="SCM - Set Target Time.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - Set Target Time.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
@@ -4111,28 +4098,13 @@ DirectoryIndex index.htm
 				<Item Name="SCM - Write Faults To SCM.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - Write Faults To SCM.vi"/>
 				<Item Name="SCM - Write Defaults To SCM.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - Write Defaults To SCM.vi"/>
 				<Item Name="scm32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/scm32.dll"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="SCM - Pad Text.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/_CalPointResources/SCM - Pad Text.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
