@@ -4008,6 +4008,8 @@ DirectoryIndex index.htm
 		<Item Name="FPGA Calibration.vi" Type="VI" URL="../FPGA Calibration.vi"/>
 		<Item Name="TDMS Init.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init.vi"/>
 		<Item Name="1dstr.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/1dstr.ctl"/>
+		<Item Name="Scale Can Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Can Temp.vi"/>
+		<Item Name="Calculate Thermistor Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Calculate Thermistor Temp.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
