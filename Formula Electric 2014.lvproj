@@ -163,6 +163,7 @@
 			<Item Name="ADXL345 Output.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA/SPI v2/ADXL345 Output.ctl"/>
 			<Item Name="AIR Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/AIR Status.ctl"/>
 			<Item Name="BMS Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/BMS Telemetry.ctl"/>
+			<Item Name="Calculate Thermistor Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Calculate Thermistor Temp.vi"/>
 			<Item Name="CAN Frame to XNET Raw Frame.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/CAN Frame to XNET Raw Frame.vi"/>
 			<Item Name="CAN Message Queue.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TX Library/CAN Message Queue.ctl"/>
 			<Item Name="CAN Message.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/TX Library/CAN Message.ctl"/>
@@ -205,6 +206,7 @@
 			<Item Name="Reason for Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Reason for Shutdown.ctl"/>
 			<Item Name="Remote Calibration Typedef.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Remote Calibration/Remote Calibration Typedef.ctl"/>
 			<Item Name="Remote Stop Type.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Vehicle Status/Remote Stop Type.ctl"/>
+			<Item Name="Scale Can Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Can Temp.vi"/>
 			<Item Name="Scale Cell Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Temp.vi"/>
 			<Item Name="Scale Cell Voltage.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Voltage.vi"/>
 			<Item Name="SDashLEDs.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dashboard/SDashLEDs.ctl"/>
