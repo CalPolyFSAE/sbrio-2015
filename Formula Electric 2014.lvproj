@@ -623,6 +623,7 @@ DirectoryIndex index.htm
 			<Item Name="FPGA Loads and Shutdown.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Loads and Shutdown.ctl"/>
 			<Item Name="FPGA Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telemetry.ctl"/>
 			<Item Name="Send FPGA Telemetry.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Send FPGA Telemetry.vi"/>
+			<Item Name="FPGA Calibration.vi" Type="VI" URL="../FPGA Calibration.vi"/>
 			<Item Name="FPGA Telem for Slow Logging.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telem for Slow Logging.ctl"/>
 			<Item Name="FPGA Telem for Fast Logging.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/FPGA Telem for Fast Logging.ctl"/>
 			<Item Name="Write Slow FPGA Telem to FIFO.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Write Slow FPGA Telem to FIFO.vi"/>
@@ -639,6 +640,9 @@ DirectoryIndex index.htm
 			<Item Name="Decode Charging State.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Decode Charging State.vi"/>
 			<Item Name="Scale Cell Voltage.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Voltage.vi"/>
 			<Item Name="Scale Cell Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Cell Temp.vi"/>
+			<Item Name="Scale Can Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Can Temp.vi"/>
+			<Item Name="Calculate Thermistor Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Calculate Thermistor Temp.vi"/>
+			<Item Name="Fan Control.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Fan Control.vi"/>
 			<Item Name="Send BMS Telemetry.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Send BMS Telemetry.vi"/>
 			<Item Name="BMS Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/BMS Telemetry.ctl"/>
 		</Item>
@@ -4007,12 +4011,8 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="FPGA Calibration.vi" Type="VI" URL="../FPGA Calibration.vi"/>
 		<Item Name="TDMS Init.vi" Type="VI" URL="../Formula Hybrid 2012 r1/TDMS Init.vi"/>
 		<Item Name="1dstr.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/1dstr.ctl"/>
-		<Item Name="Scale Can Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Scale Can Temp.vi"/>
-		<Item Name="Calculate Thermistor Temp.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Calculate Thermistor Temp.vi"/>
-		<Item Name="Fan Control.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Fan Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
