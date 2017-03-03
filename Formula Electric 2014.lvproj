@@ -695,11 +695,12 @@ DirectoryIndex index.htm
 			<Item Name="MC State Machine.lvsc" Type="LVStatechart" URL="../Formula Hybrid 2012 r1/MC State Machine.lvsc"/>
 			<Item Name="MC Control Loop.vi" Type="VI" URL="../Formula Hybrid 2012 r1/MC Control Loop.vi"/>
 			<Item Name="Process Motor Current.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Process Motor Current.vi"/>
+			<Item Name="Current Limiter.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Remote Calibration/Current Limiter.vi"/>
 			<Item Name="Power Limiter.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Power Limiter.vi"/>
 		</Item>
 		<Item Name="Shutdown" Type="Folder">
-			<Item Name="Shutdown State Machine.lvsc" Type="LVStatechart" URL="../Formula Hybrid 2012 r1/Shutdown State Machine.lvsc"/>
 			<Item Name="Shutdown State Machine Loop.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Shutdown State Machine Loop.vi"/>
+			<Item Name="Shutdown State Machine.lvsc" Type="LVStatechart" URL="../Formula Hybrid 2012 r1/Shutdown State Machine.lvsc"/>
 		</Item>
 		<Item Name="Vehicle Status" Type="Folder">
 			<Item Name="Subsystem Statuses" Type="Folder">
@@ -3896,9 +3897,6 @@ DirectoryIndex index.htm
 						<Item Name="Spi Master Inputs.ctl" Type="VI" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/Public/Spi Master Inputs.ctl"/>
 						<Item Name="Spi Master.vi" Type="VI" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/Public/Spi Master.vi"/>
 					</Item>
-					<Item Name="SPI Parameters.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/SPI/SPI Parameters.ctl"/>
-					<Item Name="Scale Output ADXL345.vi" Type="VI" URL="../Formula Hybrid 2012 r1/SPI/ADXL345/Scale Output ADXL345.vi"/>
-					<Item Name="Dash LED Status.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/Dash LED Status.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -4135,6 +4133,8 @@ DirectoryIndex index.htm
 				<Item Name="subInternalTiming.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subInternalTiming.vi"/>
 				<Item Name="subSigGeneratorBlock.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subSigGeneratorBlock.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -4162,6 +4162,7 @@ DirectoryIndex index.htm
 			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Untitled 1" Type="VI"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
