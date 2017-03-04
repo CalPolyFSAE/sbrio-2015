@@ -4162,7 +4162,6 @@ DirectoryIndex index.htm
 			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Untitled 1" Type="VI"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
