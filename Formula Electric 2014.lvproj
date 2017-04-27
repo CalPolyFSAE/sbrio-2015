@@ -3878,24 +3878,16 @@ DirectoryIndex index.htm
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="Private Data (SPI).ctl" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Type Def/Private Data (SPI).ctl"/>
-						<Item Name="Calculate Divider.vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Public/Calculate Divider.vi"/>
-						<Item Name="Configure Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Configure Port (SPI).vi"/>
-						<Item Name="Write Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Write Port (SPI).vi"/>
-						<Item Name="Arm Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Arm Port (SPI).vi"/>
-						<Item Name="Read Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Read Port (SPI).vi"/>
-						<Item Name="Initialize Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/Initialize Port (SPI).vi"/>
-						<Item Name="IP Port (SPI).vi" Type="VI" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Private/IP Port (SPI).vi"/>
 						<Item Name="niFPGA Boolean Crossing.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/analysis/control/nonlinear/niFPGA Boolean Crossing.vi"/>
 						<Item Name="niFPGA I32xI32 MAC - FXP.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"/>
 						<Item Name="niFPGA BW CU Order 2 (32-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/butterworth/templates/niFPGA BW CU Order 2 (32-bit).vi"/>
 						<Item Name="niFPGA I32xI32 MAC+ MSB.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC+ MSB.vi"/>
 						<Item Name="niFPGA BW CU Order 2 (16-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/butterworth/templates/niFPGA BW CU Order 2 (16-bit).vi"/>
+						<Item Name="IP SPI&amp;I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Library/IP SPI&amp;I2C.lvlib"/>
+						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
 					<Item Name="user.lib" Type="Folder">
-						<Item Name="Transfer Settings.ctl" Type="VI" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/Public/Transfer Settings.ctl"/>
-						<Item Name="Spi Master Inputs.ctl" Type="VI" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/Public/Spi Master Inputs.ctl"/>
-						<Item Name="Spi Master.vi" Type="VI" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/Public/Spi Master.vi"/>
+						<Item Name="NI SPI IP FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/NI SPI IP FPGA.lvlib"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
@@ -4180,7 +4172,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2CA642-8A01-491E-AF3B-DC7F51963C21}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">95</Property>
+				<Property Name="Bld_version.build" Type="Int">97</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
