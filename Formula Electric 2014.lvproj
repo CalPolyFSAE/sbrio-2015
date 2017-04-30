@@ -724,6 +724,7 @@ DirectoryIndex index.htm
 			<Item Name="Test CAN Logger with TDMS.vi" Type="VI" URL="../Testing Code/Test CAN Logger with TDMS.vi"/>
 			<Item Name="Test CAN Logger.vi" Type="VI" URL="../Testing Code/Test CAN Logger.vi"/>
 			<Item Name="Manual Coolant.vi" Type="VI" URL="../Formula Hybrid 2012 r1/PC Test Code/Manual Coolant.vi"/>
+			<Item Name="Find unique elements.vi" Type="VI" URL="../Testing Code/Find unique elements.vi"/>
 			<Item Name="Resolver Calibration Test Bench.vi" Type="VI" URL="../Formula Hybrid 2012 r1/PC Test Code/Resolver Calibration Test Bench.vi"/>
 			<Item Name="CAN Monitor.vi" Type="VI" URL="../Testing Code/CAN Monitor.vi"/>
 		</Item>
@@ -4148,10 +4149,10 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="cvi_lvrt.dll" Type="Document" URL="cvi_lvrt.dll">
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
