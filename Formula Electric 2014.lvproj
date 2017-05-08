@@ -464,7 +464,7 @@
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
 		<Property Name="alias.value" Type="Str">10.0.1.50</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,758B;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
+		<Property Name="crio.ControllerPID" Type="Str">0</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -646,7 +646,7 @@ DirectoryIndex index.htm
 			<Item Name="Fan Control.vi" Type="VI" URL="../Formula Hybrid 2012 r1/Fan Control.vi"/>
 			<Item Name="Send BMS Telemetry.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Send BMS Telemetry.vi"/>
 			<Item Name="BMS Telemetry.ctl" Type="VI" URL="../Formula Hybrid 2012 r1/BMS Telemetry.ctl"/>
-			<Item Name="Temps OK-PO3.vi" Type="VI" URL="../../Users/Oliver/SkyDrive/Documents/Temps OK-PO3.vi"/>
+			<Item Name="Temps OK-PO3.vi" Type="VI" URL="../Formula Hybrid 2012 r1/CAN/BMS/Temps OK-PO3.vi"/>
 		</Item>
 		<Item Name="MC" Type="Folder">
 			<Item Name="Telemetry" Type="Folder">
